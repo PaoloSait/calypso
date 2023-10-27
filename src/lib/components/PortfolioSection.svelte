@@ -8,7 +8,7 @@
     <div class="flex flex-row gap-4 w-full">
         <ProjectCard
             tags={"Mobile app, Landing page"}
-            description={"DUnify is the digital hub every household needs. Combining shared to-do lists with bill-splitting, rotas for chores and more, the Unify app helps households stay organised!"}
+            description={"Unify is the digital hub every household needs. Combining shared to-do lists with bill-splitting, rotas for chores and more, the Unify app helps households stay organised!"}
             link={"/"}
             imgSrc={"/Unify.png"}
         />
