@@ -1,0 +1,25 @@
+<script>
+    import SectionHeader from "./SectionHeader.svelte";
+</script>
+
+<SectionHeader title={"About Us"} subtitle={"The people behind 2V3.studio"} />
+<div class="h-8" />
+<div class="flex flex-row gap-4 w-full">
+    <div>
+        <p>
+            We are <span class="font-bold">Tarun</span> and
+            <span class="font-bold">Paolo</span>, two recent graduates from
+            Oxford University. We are web and mobile developers with a passion
+            for design and coding.
+        </p>
+
+        <p>
+            We love working with new clients to understand their ideas and help
+            bring them to life with the power of the internet.
+        </p>
+    </div>
+    <div class="rounded-xl overflow-hidden w-1/2">
+        <img src="/PainAndTurmoil.png" alt="">
+    </div>
+    
+</div>
