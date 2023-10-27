@@ -2,7 +2,7 @@
     import Timeline from "$lib/components/Timeline.svelte";
 </script>
 
-<div class="flex flex-col w-full p-10 bg-red-300">
+<div class="flex flex-col w-full p-10 background">
     <div class="text-5xl font-semibold mb-5">Website Development</div>
     <div class="flex flex-row w-full">
         <div class="w-full flex flex-col text-2xl">
@@ -26,3 +26,9 @@
 <div class="h-16" />
 <Timeline />
 <div class="h-16" />
+
+<style>
+    .background {
+        background: linear-gradient(168deg, #F1E0FF 10.21%, #F9CFE8 85.01%);
+    }
+</style>
