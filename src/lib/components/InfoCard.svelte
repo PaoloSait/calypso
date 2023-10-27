@@ -4,18 +4,19 @@
     export let link: string | undefined = undefined;
 </script>
 
-<div class="bg-white rounded-xl p-4">
-    <div>
+<div class="bg-white rounded-xl p-4 flex-col flex gap-2 w-full">
+    <div class="text-2xl font-medium">
         {title}
     </div>
     <div>
         {text}
     </div>
     {#if link}
-    <div>
-         See more information <a class="hover:underline font-medium" href={link}>here</a>
-    </div>
-        
+        <div>
+            See more information <a
+                class="hover:underline font-medium"
+                href={link}>here</a
+            >
+        </div>
     {/if}
-   
 </div>
