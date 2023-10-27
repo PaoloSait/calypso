@@ -7,9 +7,9 @@
                 >About</a
             ><span class="text-red-500">/</span><a href="/">FAQs</a><span
                 class="text-red-500">/</span
-            ><a href="/">Contact</a><span class="text-red-500">/</span><a
-                href="/">Website Development</a
-            ><span class="text-red-500">/</span><a href="/"
+            ><a href="/contact">Contact</a><span class="text-red-500">/</span><a
+                href="/website">Website Development</a
+            ><span class="text-red-500">/</span><a href="/app"
                 >Mobile App Development</a
             ><span class="text-red-500">/</span><a href="/">Portfolio</a>
         </div>
