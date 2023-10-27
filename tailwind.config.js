@@ -1,8 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [],
+  content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'background-grey': '#F8F8F8',
+      },
+      fontFamily: {
+        display: ["Libre Franklin", "sans-serif"]
+      }
+    },
   },
   plugins: [],
 }
