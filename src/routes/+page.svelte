@@ -3,6 +3,9 @@
 </script>
 
 <div class="bg-blue-400 h-[700px] flex flex-col items-center">
+    <div>
+        see me?
+    </div>
     <div class="flex flex-col items-center justify-center h-full w-1/2 gap-20">
         <div class="text-6xl font-bold text-center leading-tight">
             SUPERCHARGE YOUR BRAND WITH THE WEB
@@ -15,7 +18,8 @@
             </span>
         </div>
     </div>
-</div>
-<SectionHeader title={"Services"} subtitle={"Design and development"} />
+    <SectionHeader title={"Services"} subtitle={"Design and development"} />
 <SectionHeader title={"About Us"} subtitle={"The people behind 2V3.studio"} />
 <SectionHeader title={"Portfolio"} subtitle={"Projects we've worked on"} />
+</div>
+
