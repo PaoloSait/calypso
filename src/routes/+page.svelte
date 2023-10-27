@@ -3,8 +3,8 @@
     import SectionHeader from "$lib/components/SectionHeader.svelte";
 </script>
 
-<div class="bg-blue-400 h-[700px] flex flex-col items-center">
-    <div class="flex flex-col items-center justify-center h-full w-1/2 gap-20">
+<div class="background h-[700px] flex flex-col items-center ">
+    <div class="flex flex-col items-center justify-between h-full w-1/2 pb-4 pt-72">
         <div class="text-6xl font-bold text-center leading-tight">
             SUPERCHARGE YOUR BRAND WITH THE WEB
         </div>
@@ -36,3 +36,11 @@
     <SectionHeader title={"Portfolio"} subtitle={"Projects we've worked on"} />
 </div>
 
+
+<style>
+    .background {
+        background-color: rgb(14, 116, 144);
+        background-image: radial-gradient(at 69% 6%, rgb(59, 130, 246) 0, transparent 64%), radial-gradient(at 91% 53%, rgb(254, 202, 202) 0, transparent 55%), radial-gradient(at 67% 89%, rgb(207, 250, 254) 0, transparent 96%), radial-gradient(at 26% 35%, rgb(207, 250, 254) 0, transparent 46%);
+      
+    }
+</style>
