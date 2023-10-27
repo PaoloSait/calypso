@@ -1,3 +1,7 @@
+<script>
+    import { scrollTo } from "svelte-scrolling";
+</script>
+
 <div
     class="h-20 flex flex-row px-8 items-center gap-6 fixed top-0 right-0 left-0 bg-background-grey"
 >
@@ -7,6 +11,6 @@
 
     <div class="w-full" />
     <a href="/">Menu</a>
-    <a href="/">About</a>
+    <div use:scrollTo={{ ref: "About Us", offset: -100 }}>About</div>
     <a href="/contact">Contact</a>
 </div>
