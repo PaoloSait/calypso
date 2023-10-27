@@ -9,12 +9,12 @@
         <InfoCard
             title={"Website"}
             text={"Digitise your business and reach new audiences with a custom designed website."}
-            link={"/"}
+            link={"/website"}
         />
         <InfoCard
             title={"Mobile App"}
             text={"Give your customers a first class user experience with a fast, easy to use mobile application."}
-            link={"/"}
+            link={"/app"}
         />
     </div>
     <div class="h-4" />

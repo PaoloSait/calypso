@@ -16,9 +16,9 @@
     style:--height={`${screenHeight}px`}
 >
     <div
-        class="flex flex-col items-center justify-between h-full w-1/2 pb-4 pt-72"
+        class="flex flex-col items-center justify-between h-full w-1/2 pb-4 pt-52"
     >
-        <div class="text-6xl font-bold text-center leading-tight">
+        <div class="text-7xl font-bold text-center leading-tight">
             SUPERCHARGE YOUR BRAND WITH THE WEB
         </div>
         <div class="flex flex-row gap-2">
