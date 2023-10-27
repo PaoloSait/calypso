@@ -6,7 +6,7 @@
 
 <div class="bg-background-grey font-display">
     <NavHeader />
-    <div class="mt-20">
+    <div class="mt-20 ">
         <slot />
     </div>
     <Footer />
