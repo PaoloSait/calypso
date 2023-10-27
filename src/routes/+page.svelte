@@ -5,6 +5,8 @@
     import StayNotifiedCard from "$lib/components/StayNotifiedCard.svelte";
     import { scrollTo } from "svelte-scrolling";
     import { onMount } from "svelte";
+    import IntersectionObserver from "$lib/components/IntersectionObserver.svelte";
+    import { fade, fly } from "svelte/transition";
     export let form;
     let screenHeight: number;
     onMount(() => {
@@ -23,7 +25,8 @@
             SUPERCHARGE YOUR BRAND WITH THE WEB
         </div>
         <div class="flex flex-row gap-2">
-            See our portfolio for examples of our work <span use:scrollTo={{ ref: "Portfolio", offset: -100 }}
+            See our portfolio for examples of our work <span
+                use:scrollTo={{ ref: "Portfolio", offset: -100 }}
                 class="material-symbols-outlined"
             >
                 arrow_forward
@@ -33,13 +36,31 @@
 </div>
 
 <div class="px-36 py-16">
-    <ServicesSection />
+    <IntersectionObserver once={true} let:intersecting>
+        {#if intersecting}
+            <div in:fly={{y: 200, duration: 1500}}>
+                <ServicesSection />
+            </div>
+        {/if}
+    </IntersectionObserver>
     <div class="h-16" />
-    <PortfolioSection />
+    <IntersectionObserver once={true} let:intersecting>
+        {#if intersecting}
+            <div in:fly={{y: 200, duration: 1500}}>
+                <PortfolioSection />
+            </div>
+        {/if}
+    </IntersectionObserver>
     <div class="h-16" />
-    <AboutUsSection />
-    <div class="h-16" />
-    <StayNotifiedCard {form}/>
+    <IntersectionObserver once={true} let:intersecting>
+        {#if intersecting}
+            <div in:fly={{y: 200, duration: 1500}}>
+                <AboutUsSection />
+                <div class="h-16" />
+                <StayNotifiedCard {form} />
+            </div>
+        {/if}
+    </IntersectionObserver>
 </div>
 
 <style>
