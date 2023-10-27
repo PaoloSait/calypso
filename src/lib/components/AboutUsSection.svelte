@@ -17,8 +17,14 @@
             bring them to life with the power of the internet.
         </p>
     </div>
-    <div class="rounded-xl overflow-hidden w-full">
-        <img src="/PainAndTurmoil.png" alt="">
+    <div class="rounded-xl w-full overflow-hidden object-cover">
+        <img src="/PainAndTurmoil.png" alt="" class="object-cover w-full">
     </div>
     
 </div>
+
+<style>
+    img {
+        aspect-ratio: 4/3;
+    }
+</style>
