@@ -1,12 +1,9 @@
-<div class="bg-blue-400 h-[700px]">
-    <h1>Welcome to SvelteKit</h1>
-    <h1>Welcome to SvelteKit</h1>
-    <h1>Welcome to SvelteKit</h1>
-    <h1>Welcome to SvelteKit</h1>
-    <h1>Welcome to SvelteKit</h1>
-    <h1>Welcome to SvelteKit</h1>
+<script>
+    import SectionHeader from "$lib/components/SectionHeader.svelte";
 
-    <p>
-        Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation
-    </p>
+</script>
+<div class="bg-blue-400 h-[700px]">
+    <SectionHeader title={"Services"} subtitle={"Design and development"} />
+    <SectionHeader title={"About Us"} subtitle={"The people behind 2V3.studio"} />
+    <SectionHeader title={"Portfolio"} subtitle={"Projects we've worked on"} />
 </div>

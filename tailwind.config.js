@@ -7,7 +7,8 @@ export default {
         'background-grey': '#F8F8F8',
       },
       fontFamily: {
-        display: ["Libre Franklin", "sans-serif"]
+        display: ["Libre Franklin", "sans-serif"],
+        header: ["Yeseva One", "serif"]
       }
     },
   },
