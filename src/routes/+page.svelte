@@ -1,11 +1,9 @@
 <script>
     import AboutUsSection from "$lib/components/AboutUsSection.svelte";
-import InfoCard from "$lib/components/InfoCard.svelte";
     import PortfolioSection from "$lib/components/PortfolioSection.svelte";
-    import ProjectCard from "$lib/components/ProjectCard.svelte";
-    import SectionHeader from "$lib/components/SectionHeader.svelte";
     import ServicesSection from "$lib/components/ServicesSection.svelte";
     import StayNotifiedCard from "$lib/components/StayNotifiedCard.svelte";
+    import { scrollTo } from "svelte-scrolling";
 </script>
 
 <div class="background h-[700px] flex flex-col items-center ">
@@ -14,7 +12,7 @@ import InfoCard from "$lib/components/InfoCard.svelte";
             SUPERCHARGE YOUR BRAND WITH THE WEB
         </div>
         <div class="flex flex-row gap-2">
-            See our portfolio for examples of our work <span
+            See our portfolio for examples of our work <span use:scrollTo={{ ref: "Portfolio", offset: -100 }}
                 class="material-symbols-outlined"
             >
                 arrow_forward
