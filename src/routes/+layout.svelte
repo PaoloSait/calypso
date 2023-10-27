@@ -4,9 +4,9 @@
     import NavHeader from "$lib/components/NavHeader.svelte";
 </script>
 
-<div class="bg-background-grey font-display">
+<div class="bg-background-grey font-display flex flex-col min-h-screen">
     <NavHeader />
-    <div class="mt-20 ">
+    <div class="mt-20 grow">
         <slot />
     </div>
     <Footer />

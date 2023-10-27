@@ -17,7 +17,7 @@
 
 {#if multiline}
     <textarea
-        name="text"
+        {name}
         autocomplete="off"
         {placeholder}
         class="bg-white dark:bg-gray-600 dark:text-white appearance-none min-h-[80] rounded w-full grow py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:border-purple-500 resize-none"

@@ -1,25 +1,38 @@
-<script>
+<script lang="ts">
+    import Button from "$lib/components/Button.svelte";
     import Input from "$lib/components/Input.svelte";
 </script>
 
-<div class={`background h-[700px]`}>
-    <div class="flex flex-col px-10 w-full pt-10">
+<div class="background h-full pb-16">
+    <div class="flex flex-col w-full pt-16 px-28">
         <div class="text-4xl font-semibold mb-5">Contact</div>
         <div class="flex flex-row w-full">
-            <div class="w-full flex flex-col">
+            <div class="w-full flex flex-col items-center gap-5 text-xl">
                 <div>
                     Please don’t hesitate to get in touch if you have any
                     questions for us! Use the form to the right.
                 </div>
-                <div>or</div>
+                <div class="flex flex-row w-full items-center gap-1">
+                    <div class="w-full bg-black h-[2px] rounded" />
+                    <div>or</div>
+                    <div class="w-full bg-black h-[2px] rounded" />
+                </div>
                 <div>
                     Email us below with your project brief. Please be sure to
                     include your estimated budget.
                 </div>
-                <div>team@2v3.studio</div>
+
+                <a
+                    class="flex flex-row w-full items-center gap-2"
+                    href="mailto: team@unify-living.app"
+                >
+                    <span class="material-symbols-outlined">
+                        mail
+                    </span>team@2v3.studio
+                </a>
             </div>
-            <div class="w-40 border border-black"></div>
-            <div class="w-full flex flex-col gap-2">
+            <div class="w-56" />
+            <form class="w-full flex flex-col gap-3" method="POST">
                 <Input name="name" placeholder="Name" type="text" />
                 <Input name="email" placeholder="Email" type="email" />
                 <Input
@@ -28,7 +41,8 @@
                     type="text"
                     multiline={true}
                 />
-            </div>
+                <Button text="Send Message" />
+            </form>
         </div>
     </div>
 </div>
