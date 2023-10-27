@@ -5,6 +5,7 @@
     import StayNotifiedCard from "$lib/components/StayNotifiedCard.svelte";
     import { scrollTo } from "svelte-scrolling";
     import { onMount } from "svelte";
+    export let form;
     let screenHeight: number;
     onMount(() => {
         screenHeight = window.innerHeight - 80;
@@ -38,7 +39,7 @@
     <div class="h-16" />
     <AboutUsSection />
     <div class="h-16" />
-    <StayNotifiedCard />
+    <StayNotifiedCard {form}/>
 </div>
 
 <style>

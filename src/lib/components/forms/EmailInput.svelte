@@ -1,7 +1,8 @@
 <script lang="ts">
+    import { enhance } from "$app/forms";
 </script>
 
-<form class="flex flex-row rounded-l">
+<form class="flex flex-row rounded-l" method="POST" action="/" use:enhance>
     <input
         class="bg-gray-200 appearance-none rounded-l py-2 px-4 text-black leading-tight focus:outline-none w-3/4"
         name="email"
