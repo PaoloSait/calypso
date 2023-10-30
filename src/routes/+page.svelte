@@ -50,7 +50,13 @@
         {#if intersecting}
             <div in:fly={{y: 200, duration: 1500}}>
                 <AboutUsSection />
-                <div class="h-16" />
+            </div>
+        {/if}
+    </IntersectionObserver>
+    <div class="h-16" />
+    <IntersectionObserver once={true} let:intersecting>
+        {#if intersecting}
+            <div in:fly={{y: 200, duration: 1500}}>
                 <StayNotifiedCard {form} />
             </div>
         {/if}
