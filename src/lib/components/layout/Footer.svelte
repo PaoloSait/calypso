@@ -1,4 +1,5 @@
 <script>
+    import { page } from "$app/stores";
     import { scrollTo } from "svelte-scrolling";
 </script>
 
@@ -16,7 +17,13 @@
         ><span class="text-red-500">/</span><a href="/app"
             >Mobile App Development</a
         ><span class="text-red-500">/</span>
-        <div use:scrollTo={{ ref: "Portfolio", offset: -100 }}>Portfolio</div>
+        {#if $page.url.pathname == "/"}
+            <div use:scrollTo={{ ref: "Portfolio", offset: -100 }}>
+                Portfolio
+            </div>
+        {:else}
+            <a href="/">Portfolio</a>
+        {/if}
     </div>
     <div class="text-xs">© 2023 2V3.studio. ALL RIGHTS RESERVED</div>
 </div>
