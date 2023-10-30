@@ -1,10 +1,10 @@
 <script>
+    import FaqCollapsible from "./FAQCollapsible.svelte";
     import SectionHeader from "../SectionHeader.svelte";
-import FaqCollapsible from "./FAQCollapsible.svelte";
 </script>
 
-<div class="flex flex-col items-center pt-8 pb-16">
-   <SectionHeader title="FAQs" subtitle="Things people ask us"/>
+<div class="flex flex-col items-center py-16">
+    <SectionHeader title={"FAQs"} subtitle={"Things people often ask us"} />
     <div class="h-8"></div>
     <div class="flex flex-col items-start w-1/2 gap-6">
         <FaqCollapsible

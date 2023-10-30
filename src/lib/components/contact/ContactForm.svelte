@@ -3,9 +3,9 @@
     import Input from "$lib/components/forms/Input.svelte";
 </script>
 
-<div class="background h-full pb-16">
-    <div class="flex flex-col w-full pt-16 px-28">
-        <div class="text-4xl font-semibold mb-5">Contact</div>
+<div class="background h-full py-16 px-20">
+    <div class="flex flex-col w-full ">
+        <div class="text-5xl font-semibold mb-5">Contact</div>
         <div class="flex flex-row w-full">
             <div class="w-full flex flex-col items-center gap-5 text-xl">
                 <div>
