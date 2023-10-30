@@ -11,6 +11,6 @@
 
     <div class="w-full" />
     <a href="/">Menu</a>
-    <div use:scrollTo={{ ref: "About Us", offset: -100 }}>About</div>
+    <a href="/about">About</a>
     <a href="/contact">Contact</a>
 </div>
