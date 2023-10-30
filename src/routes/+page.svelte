@@ -32,7 +32,7 @@
 <div class="px-36 py-16">
     <IntersectionObserver once={true} let:intersecting>
         {#if intersecting}
-            <div in:fly={{y: 200, duration: 1500}}>
+            <div in:fly={{y: 200, duration: 1000}}>
                 <ServicesSection />
             </div>
         {/if}
@@ -40,7 +40,7 @@
     <div class="h-16" />
     <IntersectionObserver once={true} let:intersecting>
         {#if intersecting}
-            <div in:fly={{y: 200, duration: 1500}}>
+            <div in:fly={{y: 100, duration: 750}}>
                 <PortfolioSection />
             </div>
         {/if}
@@ -48,7 +48,7 @@
     <div class="h-16" />
     <IntersectionObserver once={true} let:intersecting>
         {#if intersecting}
-            <div in:fly={{y: 200, duration: 1500}}>
+            <div in:fly={{y: 100, duration: 750}}>
                 <AboutUsSection />
             </div>
         {/if}
@@ -56,7 +56,7 @@
     <div class="h-16" />
     <IntersectionObserver once={true} let:intersecting>
         {#if intersecting}
-            <div in:fly={{y: 200, duration: 1500}}>
+            <div in:fly={{y: 100, duration: 750}}>
                 <StayNotifiedCard {form} />
             </div>
         {/if}
