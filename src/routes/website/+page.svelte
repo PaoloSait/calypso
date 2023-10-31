@@ -2,24 +2,28 @@
     import Timeline from "$lib/components/Timeline.svelte";
 </script>
 
-<div class="flex flex-col w-full py-16 px-20 background">
-    <div class="text-5xl font-semibold mb-5">Website Development</div>
-    <div class="flex flex-row w-full gap-4">
-        <div class="w-full flex flex-col text-2xl">
+<div class="flex flex-row w-full p-10 background justify-between gap-10 items-start">
+    <div class="flex flex-col w-full">
+        <div class="text-5xl font-semibold my-10">Website Development</div>
+        <div class="w-full flex flex-col text-xl">
             <div>
                 A website is essential for any business to unlock its full
                 potential. We design and build websites tailored to our clients
                 needs, helping them:
             </div>
-            <ul class="list-disc m-4">
+            <ul class="list-disc m-4 flex flex-col gap-1 mt-6">
                 <li>Find customers more easily</li>
                 <li>Add new revenue streams with online stores</li>
                 <li>Improve customer satisfaction with digital experiences</li>
             </ul>
         </div>
-        <div class="w-full border border-black bg-white">
-            WebsiteExample.png
-        </div>
+    </div>
+    <div class="flex justify-center w-full px-32">
+        <img
+            src="website_example.png"
+            alt="website_example"
+            class="rounded-xl shadow-md"
+        />
     </div>
 </div>
 
@@ -48,6 +52,6 @@
 
 <style>
     .background {
-        background: linear-gradient(168deg, #F1E0FF 10.21%, #F9CFE8 85.01%);
+        background: linear-gradient(168deg, #f1e0ff 10.21%, #f9cfe8 85.01%);
     }
 </style>
