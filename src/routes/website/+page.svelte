@@ -1,9 +1,10 @@
 <script lang="ts">
     import Timeline from "$lib/components/Timeline.svelte";
+    import DevHeadline from "$lib/components/layout/DevHeadline.svelte";
 </script>
 
-<div class="flex flex-row w-full p-10 background justify-between gap-10 items-start">
-    <div class="flex flex-col w-full">
+<DevHeadline background="linear-gradient(168deg, #f1e0ff 10.21%, #f9cfe8 85.01%)">
+    <div class="flex flex-col" slot="text">
         <div class="text-5xl font-semibold my-10">Website Development</div>
         <div class="w-full flex flex-col text-xl">
             <div>
@@ -18,14 +19,14 @@
             </ul>
         </div>
     </div>
-    <div class="flex justify-center w-full px-32">
+    <div class="flex justify-center min-w-[50%] ml-10" slot="image">
         <img
             src="website_example.png"
             alt="website_example"
-            class="rounded-xl shadow-md"
+            class="rounded-xl shadow-md object-contain"
         />
     </div>
-</div>
+</DevHeadline>
 
 <div class="h-16" />
 <Timeline
@@ -50,8 +51,3 @@
 />
 <div class="h-16" />
 
-<style>
-    .background {
-        background: linear-gradient(168deg, #f1e0ff 10.21%, #f9cfe8 85.01%);
-    }
-</style>

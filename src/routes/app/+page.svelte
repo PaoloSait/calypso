@@ -3,7 +3,31 @@
     import DevHeadline from "$lib/components/layout/DevHeadline.svelte";
 </script>
 
-<DevHeadline  background="linear-gradient(168deg, #ffe0e0 10.21%, #f9e8cf 85.01%)"/>
+<DevHeadline
+    background="linear-gradient(168deg, #ffe0e0 10.21%, #f9e8cf 85.01%)"
+>
+    <div class="flex flex-col h-full" slot="text">
+        <div class="text-5xl font-semibold my-10">App Development</div>
+        <div class="w-full flex flex-col text-xl">
+            <div>
+                We build fast and fluid mobile apps to elevate your customer’s
+                experience and provide them with new ways of interacting with
+                your services
+            </div>
+            <div class="h-6" />
+            <div class="font-semibold">One app for both iOS and Android</div>
+            <div class="h-4" />
+            <div>
+                Instead of paying for an app for iPhone users and one for
+                Android users, we create one which works on both platforms,
+                saving you money and confusion.
+            </div>
+        </div>
+    </div>
+    <div class="flex justify-end min-w-[30%]" slot="image">
+        <img src="app_example.png" alt="app_example" class="object-contain" />
+    </div>
+</DevHeadline>
 
 <div class="h-16" />
 <Timeline
