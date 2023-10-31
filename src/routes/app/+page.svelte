@@ -1,58 +1,9 @@
 <script lang="ts">
     import Timeline from "$lib/components/Timeline.svelte";
+    import DevHeadline from "$lib/components/layout/DevHeadline.svelte";
 </script>
 
-<!-- <div class="flex flex-col w-full py-16 px-20 background">
-    <div class="text-5xl font-semibold mb-5">App Development</div>
-    <div class="flex flex-row w-full gap-4">
-        <div class="w-full flex flex-col text-2xl">
-            <div>
-                We build fast and fluid mobile apps to elevate your customer’s
-                experience and provide them with new ways of interacting with
-                your services
-            </div>
-            <div class="h-6" />
-            <div class="font-semibold">One app for both iOS and Android</div>
-            <div class="h-2" />
-            <div>
-                Instead of paying for an app for iPhone users and one for
-                Android users, we create one which works on both platforms,
-                saving you money and confusion.
-            </div>
-        </div>
-        <div class="w-full px-48">
-            <div class="w-full h-full border border-black bg-white">
-                PhoneExample.png
-            </div>
-        </div>
-    </div>
-</div> -->
-<div class="flex flex-row w-full py-10 px-32 background justify-between">
-    <div class="flex flex-col w-7/12">
-        <div class="text-5xl font-semibold my-10">App Development</div>
-        <div class="w-full flex flex-col text-xl">
-            <div>
-                We build fast and fluid mobile apps to elevate your customer’s
-                experience and provide them with new ways of interacting with
-                your services
-            </div>
-            <div class="h-6" />
-            <div class="font-semibold">One app for both iOS and Android</div>
-            <div class="h-4" />
-            <div>
-                Instead of paying for an app for iPhone users and one for
-                Android users, we create one which works on both platforms,
-                saving you money and confusion.
-            </div>
-        </div>
-    </div>
-    <div class="flex justify-center w-5/12 px-32">
-        <img
-            src="app_example.png"
-            alt="app_example"
-        />
-    </div>
-</div>
+<DevHeadline  background="linear-gradient(168deg, #ffe0e0 10.21%, #f9e8cf 85.01%)"/>
 
 <div class="h-16" />
 <Timeline
@@ -76,9 +27,3 @@
     ]}
 />
 <div class="h-16" />
-
-<style>
-    .background {
-        background: linear-gradient(168deg, #ffe0e0 10.21%, #f9e8cf 85.01%);
-    }
-</style>
