@@ -16,6 +16,9 @@
             We love working with new clients to understand their ideas and help
             bring them to life with the power of the internet.
         </p>
+        <p>
+            You can read more about us <a class="hover:underline font-medium" href="/about">here</a>.
+        </p>
     </div>
     <div class="rounded-xl w-full overflow-hidden object-cover">
         <img src="/PainAndTurmoil.png" alt="" class="object-cover w-full">

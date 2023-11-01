@@ -6,7 +6,7 @@
     </a>
 
     <div class="w-full" />
-    <a href="/">Menu</a>
-    <a href="/about">About</a>
-    <a href="/contact">Contact</a>
+    <a class="hover:font-medium" href="/">Menu</a>
+    <a class="hover:font-medium" href="/about">About</a>
+    <a class="hover:font-medium" href="/contact">Contact</a>
 </div>

@@ -12,7 +12,7 @@
 
 <StatementScreen />
 
-<div class="px-36 py-16">
+<div class="px-36 py-20">
     <IntersectionObserver once={true} let:intersecting>
         {#if intersecting}
             <div in:fly={{y: 200, duration: 1000}}>
@@ -20,7 +20,7 @@
             </div>
         {/if}
     </IntersectionObserver>
-    <div class="h-16" />
+    <div class="h-20" />
     <IntersectionObserver once={true} let:intersecting>
         {#if intersecting}
             <div in:fly={{y: 100, duration: 750}}>
@@ -28,7 +28,7 @@
             </div>
         {/if}
     </IntersectionObserver>
-    <div class="h-16" />
+    <div class="h-20" />
     <IntersectionObserver once={true} let:intersecting>
         {#if intersecting}
             <div in:fly={{y: 100, duration: 750}}>
@@ -36,7 +36,7 @@
             </div>
         {/if}
     </IntersectionObserver>
-    <div class="h-16" />
+    <div class="h-20" />
     <IntersectionObserver once={true} let:intersecting>
         {#if intersecting}
             <div in:fly={{y: 100, duration: 750}}>

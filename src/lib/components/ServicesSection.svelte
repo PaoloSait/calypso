@@ -36,14 +36,15 @@
 <div class="h-4" />
 
 <div class="bg-white rounded-xl flex-row flex gap-2 w-full overflow-hidden">
-    <div class="flex flex-col p-4 gap-4 w-full">
-        <div class="text-2xl font-medium">Bespoke Projects</div>
+    <div class="flex flex-col p-4 gap-2 w-full">
+        <div class="text-3xl font-medium">Bespoke Projects</div>
         <div>
             Need something more than a website and mobile app? We're happy to
             have a discussion to see if we can help design and develop what you
             need. Send us a description of your project and we will get back to
             you shortly.
         </div>
+        <div class="h-2"></div>
         <a
             href="mailto:?"
             class="rounded-md bg-black w-min px-6 py-2 text-white flex flex-row gap-2 font-medium hover:bg-gray-800"
