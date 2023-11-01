@@ -10,11 +10,13 @@
             title={"Website"}
             text={"Digitise your business and reach new audiences with a custom designed website."}
             link={"/website"}
+            icon={"computer"}
         />
         <InfoCard
             title={"Mobile App"}
             text={"Give your customers a first class user experience with a fast, easy to use mobile application."}
             link={"/app"}
+            icon={"smartphone"}
         />
     </div>
     <div class="h-4" />
