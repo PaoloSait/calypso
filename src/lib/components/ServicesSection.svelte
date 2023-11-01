@@ -4,24 +4,55 @@
 </script>
 
 <SectionHeader title={"Services"} subtitle={"Design and development"} />
-    <div class="h-8" />
-    <div class="flex flex-row gap-4 w-full">
-        <InfoCard
-            title={"Website"}
-            text={"Digitise your business and reach new audiences with a custom designed website."}
-            link={"/website"}
-            icon={"computer"}
-        />
-        <InfoCard
-            title={"Mobile App"}
-            text={"Give your customers a first class user experience with a fast, easy to use mobile application."}
-            link={"/app"}
-            icon={"smartphone"}
-        />
+<div class="h-8" />
+<div class="flex flex-row gap-4 w-full">
+    <InfoCard title={"Website"} link={"/website"} icon={"computer"}>
+        <div slot="content" class="flex flex-col">
+            <div>
+                Digitise your business and reach new audiences with a custom
+                designed website.
+            </div>
+            <ul class="list-disc m-4 flex flex-col gap-1 mt-4">
+                <li>In-depth Design Consultations</li>
+                <li>Built using the latest Tech</li>
+                <li>Monthly Maintenance Calls</li>
+            </ul>
+        </div>
+    </InfoCard>
+    <InfoCard title={"Mobile App"} link={"/app"} icon={"smartphone"}>
+        <div slot="content" class="flex flex-col">
+            <div>
+                Give your customers a first class user experience with a fast,
+                easy to use mobile application.
+            </div>
+            <ul class="list-disc m-4 flex flex-col gap-1 mt-4">
+                <li>In-depth Design Consultations</li>
+                <li>Cross-platform Support</li>
+                <li>Monthly Maintenance Calls</li>
+            </ul>
+        </div>
+    </InfoCard>
+</div>
+<div class="h-4" />
+
+<div class="bg-white rounded-xl flex-row flex gap-2 w-full overflow-hidden">
+    <div class="flex flex-col p-4 gap-4 w-full">
+        <div class="text-2xl font-medium">Bespoke Projects</div>
+        <div>
+            Need something more than a website and mobile app? We're happy to
+            have a discussion to see if we can help design and develop what you
+            need. Send us a description of your project and we will get back to
+            you shortly.
+        </div>
+        <a
+            href="mailto:?"
+            class="rounded-md bg-black w-min px-6 py-2 text-white flex flex-row gap-2 font-medium hover:bg-gray-800"
+        >
+            <span class="material-symbols-outlined"> email </span>
+            <div>Contact</div>
+        </a>
     </div>
-    <div class="h-4" />
-    <InfoCard
-        title={"Bespoke Projects"}
-        text={"Need something more than a website and mobile app? We're happy to have a discussion to see if we can help design and develop what you need. Send us a description of your project and we will get back to you shortly."}
-    />
-    
+    <div class="w-full">
+        <img src="/bespoke-web-dev-graphic.png" alt="" />
+    </div>
+</div>

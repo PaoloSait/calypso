@@ -1,6 +1,5 @@
 <script lang="ts">
     export let title: string;
-    export let text: string;
     export let link: string | undefined = undefined;
     export let icon: string | undefined = undefined;
 </script>
@@ -13,9 +12,7 @@
 
         {title}
     </div>
-    <div>
-        {text}
-    </div>
+    <slot name="content" />
     {#if link}
         <div>
             See more information <a
