@@ -26,7 +26,7 @@
             </div>
         </div>
     </div>
-    <div class="justify-end min-w-[30%] md:flex hidden" slot="image">
+    <div class="justify-end min-w-[30%] md:flex hidden max-h-[70vh]" slot="image">
         <img src="app_example.png" alt="app_example" class="object-contain" />
     </div>
 </DevHeadline>

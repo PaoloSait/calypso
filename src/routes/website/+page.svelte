@@ -19,7 +19,7 @@
             </ul>
         </div>
     </div>
-    <div class="justify-center min-w-[50%] ml-10 hidden md:flex" slot="image">
+    <div class="justify-center min-w-[50%] ml-10 h-min hidden md:flex" slot="image">
         <img
             src="website_example.png"
             alt="website_example"

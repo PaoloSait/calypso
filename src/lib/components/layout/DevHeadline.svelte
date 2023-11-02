@@ -3,7 +3,7 @@
 </script>
 
 <div
-    class="flex md:flex-row flex-col w-full md:py-10 md:px-28 py-4 px-6 background justify-between h-[calc(80svh_-_5rem)]"
+    class="flex md:flex-row flex-col w-full md:py-10 md:px-28 py-4 px-6 background justify-between"
     style:background
 >
     <slot name="text" />
