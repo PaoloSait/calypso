@@ -5,8 +5,8 @@
 
 <DevHeadline background="linear-gradient(168deg, #f1e0ff 10.21%, #f9cfe8 85.01%)">
     <div class="flex flex-col" slot="text">
-        <div class="text-5xl font-semibold my-10">Website Development</div>
-        <div class="w-full flex flex-col text-xl">
+        <div class="md:text-5xl text-3xl font-semibold my-10">Website Development</div>
+        <div class="w-full flex flex-col md:text-xl">
             <div>
                 A website is essential for any business to unlock its full
                 potential. We design and build websites tailored to our clients
@@ -19,7 +19,7 @@
             </ul>
         </div>
     </div>
-    <div class="flex justify-center min-w-[50%] ml-10" slot="image">
+    <div class="justify-center min-w-[50%] ml-10 hidden md:flex" slot="image">
         <img
             src="website_example.png"
             alt="website_example"
