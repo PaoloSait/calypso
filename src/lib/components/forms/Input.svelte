@@ -20,11 +20,11 @@
         {name}
         autocomplete="off"
         {placeholder}
-        class="bg-white dark:bg-gray-600 dark:text-white appearance-none min-h-[80] rounded w-full grow py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:border-purple-500 resize-none"
+        class="bg-white dark:bg-gray-600 dark:text-white appearance-none min-h-[80] rounded w-full grow py-2 px-2 md:px-4 text-gray-700 leading-tight focus:outline-none focus:border-purple-500 resize-none"
     />
 {:else if boundValue != null}
     <input
-        class="bg-white dark:bg-gray-600 dark:text-white appearance-none rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white dark:focus:bg-gray-600 focus:border-purple-500"
+        class="bg-white dark:bg-gray-600 dark:text-white appearance-none rounded w-full py-2 px-2 md:px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white dark:focus:bg-gray-600 focus:border-purple-500"
         {name}
         type="text"
         {placeholder}
@@ -33,7 +33,7 @@
     />
 {:else}
     <input
-        class="bg-white dark:bg-gray-600 dark:text-white appearance-none rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white dark:focus:bg-gray-600 focus:border-purple-500"
+        class="bg-white dark:bg-gray-600 dark:text-white appearance-none rounded w-full py-2 px-2 md:px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white dark:focus:bg-gray-600 focus:border-purple-500"
         {name}
         {type}
         {placeholder}

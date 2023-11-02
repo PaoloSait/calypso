@@ -6,7 +6,7 @@
 <div class="flex flex-col items-center py-16">
     <SectionHeader title={"FAQs"} subtitle={"Things people often ask us"} />
     <div class="h-8"></div>
-    <div class="flex flex-col items-start w-1/2 gap-6">
+    <div class="flex flex-col items-start md:w-1/2 w-full px-1  md:px-0 gap-6">
         <FaqCollapsible
             title="How long does it take to build a website"
             content="It depends! Projects can take from a few days to a few months depending on the scale of the project, and the client's priorities"
