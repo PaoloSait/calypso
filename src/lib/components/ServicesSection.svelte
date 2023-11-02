@@ -36,8 +36,8 @@
 <div class="h-4" />
 
 <div class="bg-white rounded-xl flex-row flex gap-2 w-full overflow-hidden">
-    <div class="flex flex-col p-4 gap-2 w-full">
-        <div class="text-3xl font-medium">Bespoke Projects</div>
+    <div class="flex flex-col p-4 gap-1 md:gap-2 w-full">
+        <div class="text-2xl md:text-3xl font-medium">Bespoke Projects</div>
         <div>
             Need something more than a website and mobile app? We're happy to
             have a discussion to see if we can help design and develop what you
@@ -53,7 +53,7 @@
             <div>Contact</div>
         </a>
     </div>
-    <div class="w-full">
+    <div class="w-full hidden md:flex ">
         <img src="/bespoke-web-dev-graphic.png" alt="" />
     </div>
 </div>

@@ -4,7 +4,7 @@
 
 <SectionHeader title={"About Us"} subtitle={"The people behind 2V3.studio"} />
 <div class="h-8" />
-<div class="flex flex-row gap-6 w-full">
+<div class="flex flex-col-reverse md:flex-row gap-6 w-full">
     <div class="text-lg flex flex-col gap-4 w-full">
         <p>
             We are <span class="font-bold">Tarun</span> and

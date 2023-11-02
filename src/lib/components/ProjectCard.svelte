@@ -10,7 +10,7 @@
         <a class="h-8" href={link}>
             <img class="object-scale-down md:h-10 h-8" src={imgSrc} alt="" />
         </a>
-    {:else}<img src={imgSrc} alt="" />{/if}
+    {:else}<img src={imgSrc} alt=""/>{/if}
     <div class="font-medium">
         {tags}
     </div>

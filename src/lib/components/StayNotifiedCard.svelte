@@ -5,7 +5,7 @@
     export let form: ActionData;
 </script>
 
-<div class="bg-white rounded-xl flex-row flex gap-2 w-full overflow-hidden">
+<div class="bg-white rounded-xl flex gap-2 w-full overflow-hidden">
     <div class="flex flex-col p-4 gap-4 w-full">
         <div class="text-3xl font-semibold">Stay Notified</div>
         <div>
@@ -14,10 +14,10 @@
         </div>
         <EmailInput />
         {#if form?.success}
-            <div class="text-sm">{"Thanks for joining us!"}</div>
+            <div class="text-xs md:text-sm">{"Thanks for joining us!"}</div>
         {:else}
-            <div class="h-5" />
+            <div class="h-3 md:h-5" />
         {/if}
     </div>
-    <div class="bg-pink-500 w-full" />
+    <div class="bg-pink-500 w-full hidden md:flex" />
 </div>
