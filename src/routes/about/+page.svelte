@@ -20,7 +20,7 @@
             </p>
         </div>
     </div>
-    <div class="flex justify-center min-w-[50%] ml-10" slot="image">
+    <div class="flex justify-center min-w-[50%] ml-10 h-min" slot="image">
         <img
             src="/PainAndTurmoil.png"
             alt="img_of_us"
@@ -37,7 +37,6 @@
         <div class="flex flex-col gap-2 w-full">
             <div class="font-header text-5xl">Tarun Koteeswaran</div>
             <div class="font-semibold">MPhys Physics, Oxford University</div>
-
             <div class="text-lg">
                 I am a recent physics undergraduate from the University of
                 Oxford, who is passionate about bringing clients ideas to life.
