@@ -20,7 +20,10 @@
             </p>
         </div>
     </div>
-    <div class="flex justify-center min-w-[50%] ml-10 h-min" slot="image">
+    <div
+        class="flex justify-center min-w-[50%] md:ml-10 mt-6 mb-4 md:my-0 h-min"
+        slot="image"
+    >
         <img
             src="/PainAndTurmoil.png"
             alt="img_of_us"
@@ -29,15 +32,19 @@
     </div>
 </DevHeadline>
 
-<div class="px-36 py-20">
+<div class="md:px-36 md:py-20 py-5 px-5">
     <div class="flex flex-row gap-8">
-        <div class="rounded-full bg-red-400 w-40 h-40 shrink-0">
+        <div class="rounded-full md:w-40 md:h-40 w-20 h-20 shrink-0">
             <img src="/TarunHeadshot.png" alt="" />
         </div>
-        <div class="flex flex-col gap-2 w-full">
-            <div class="font-header text-5xl">Tarun Koteeswaran</div>
-            <div class="font-semibold">MPhys Physics, Oxford University</div>
-            <div class="text-lg">
+        <div class="flex flex-col md:gap-2 w-full">
+            <div class="md:font-header md:text-5xl text-lg font-semibold">
+                Tarun Koteeswaran
+            </div>
+            <div class="font-semibold md:text-base text-sm mb-2 md:mb-0">
+                MPhys Physics, Oxford University
+            </div>
+            <div class="md:text-lg">
                 I am a recent physics undergraduate from the University of
                 Oxford, who is passionate about bringing clients ideas to life.
                 Having gained valuable experience working at tech startups, I
@@ -46,21 +53,25 @@
             </div>
         </div>
     </div>
-    <div class="h-20" />
-    <div class="flex flex-row gap-8">
-        <div class="flex flex-col gap-2 w-full">
-            <div class="font-header text-5xl">Paolo Sait</div>
-            <div class="font-semibold">
+    <div class="md:h-20 h-5" />
+    <div class="flex flex-row-reverse md:flex-row gap-8">
+        <div class="flex flex-col md:gap-2 w-full">
+            <div class="md:font-header md:text-5xl text-lg font-semibold">
+                Paolo Sait
+            </div>
+            <div class="font-semibold md:text-base text-sm mb-2 md:mb-0">
                 MMath Mathematics, Oxford University
             </div>
-            <div class="text-lg">
+            <div class="md:text-lg">
                 I hold a degree in Mathematics from the University of Oxford and
-                possess a keen eye for design. During my degree, I
-                undertook various coding projects, giving me a wide range of
-                computing skills. During my free time, I enjoy making music and
-                crafting visual media!
+                possess a keen eye for design. During my degree, I undertook
+                various coding projects, giving me a wide range of computing
+                skills. During my free time, I enjoy making music and crafting
+                visual media!
             </div>
         </div>
-        <div class="rounded-full bg-red-400 w-40 h-40 shrink-0" />
+        <div
+            class="rounded-full bg-red-500 md:w-40 md:h-40 w-20 h-20 shrink-0"
+        />
     </div>
 </div>
