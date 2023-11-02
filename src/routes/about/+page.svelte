@@ -31,9 +31,13 @@
 
 <div class="px-36 py-20">
     <div class="flex flex-row gap-8">
-        <div class="rounded-full bg-red-400 w-40 h-40 shrink-0" />
-        <div class="flex flex-col gap-4 w-full">
+        <div class="rounded-full bg-red-400 w-40 h-40 shrink-0" ><img src="/TarunHeadshot.png" alt=""></div>
+        <div class="flex flex-col gap-2 w-full">
             <div class="font-header text-5xl">Tarun Koteeswaran</div>
+            <div class="font-semibold">
+                MPhys Physics, Oxford University
+            </div>
+
             <div class="text-lg">
                 Reliable? No. Always got your side? No. Will you snake you out
                 to go play tennis with some rando bastard? Sure bet you he will.
@@ -44,8 +48,11 @@
     </div>
     <div class="h-20" />
     <div class="flex flex-row gap-8">
-        <div class="flex flex-col gap-4 w-full">
+        <div class="flex flex-col gap-2 w-full">
             <div class="font-header text-5xl">Paolo Sait</div>
+            <div class="font-semibold">
+                MMath Mathematics, Oxford University
+            </div>
             <div class="text-lg">
                 We are Tarun and Paolo, two recent graduates from Oxford
                 University. We are web and mobile developers with a passion for
@@ -54,6 +61,8 @@
                 power of the internet.
             </div>
         </div>
-        <div class="rounded-full bg-red-400 w-40 h-40 shrink-0" />
+        <div class="rounded-full bg-red-400 w-40 h-40 shrink-0" >
+
+        </div>
     </div>
 </div>
