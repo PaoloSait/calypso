@@ -36,7 +36,7 @@
             </div>
         {/if}
     </IntersectionObserver>
-    <div class="h-20" />
+    <div class="h-12 sm:h-20" />
     <IntersectionObserver once={true} let:intersecting>
         {#if intersecting}
             <div in:fly={{y: 100, duration: 750}}>
