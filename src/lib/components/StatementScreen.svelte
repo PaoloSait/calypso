@@ -4,9 +4,9 @@
 
 <div class="background flex flex-col items-center h-[calc(100vh_-_80px)]">
     <div
-        class="flex flex-col items-center justify-between h-full w-1/2 pb-8 pt-52"
+        class="flex flex-col items-center justify-between h-full w-full pb-8 pt-52"
     >
-        <div class="text-7xl font-bold text-center leading-tight animate-[fadeIn_2s_ease-in-out]">
+        <div class="lg:text-7xl md:text-6xl sm:text-5xl text-4xl font-bold text-center leading-tight animate-[fadeIn_2s_ease-in-out] w-3/4 sm:w-1/2">
             SUPERCHARGE YOUR BRAND WITH THE WEB
         </div>
         <div class="flex flex-row gap-2 animate-[fadeIn_3s_ease-in-out]">
