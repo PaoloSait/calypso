@@ -2,7 +2,7 @@
     import { scrollTo } from "svelte-scrolling";
 </script>
 
-<div class="background flex flex-col items-center h-[calc(100vh_-_5rem)]">
+<div class="background flex flex-col items-center h-[calc(100svh_-_5rem)]">
     <div
         class="flex flex-col items-center justify-between h-full w-full pb-8 pt-52"
     >
