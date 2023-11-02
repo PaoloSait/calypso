@@ -46,7 +46,7 @@
         </div>
         <div class="h-2"></div>
         <a
-            href="mailto:?"
+            href="mailto:tarunkoteeswaran@gmail.com"
             class="rounded-md bg-black w-min px-6 py-2 text-white flex flex-row gap-2 font-medium hover:bg-gray-800"
         >
             <span class="material-symbols-outlined"> email </span>

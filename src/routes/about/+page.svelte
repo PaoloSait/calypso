@@ -2,9 +2,7 @@
     import DevHeadline from "$lib/components/layout/DevHeadline.svelte";
 </script>
 
-<DevHeadline
-    background="linear-gradient(168deg, #CED9FF 10.21%, #E4CEFF 85.01%)"
->
+<DevHeadline background="linear-gradient(168deg, #CED9FF 10.21%, #E4CEFF 85.01%)">
     <div class="flex flex-col" slot="text">
         <div class="text-5xl font-semibold my-10">About Us</div>
         <div class="w-full flex flex-col gap-4 text-xl">
@@ -31,12 +29,12 @@
 
 <div class="px-36 py-20">
     <div class="flex flex-row gap-8">
-        <div class="rounded-full bg-red-400 w-40 h-40 shrink-0" ><img src="/TarunHeadshot.png" alt=""></div>
+        <div class="rounded-full bg-red-400 w-40 h-40 shrink-0">
+            <img src="/TarunHeadshot.png" alt="" />
+        </div>
         <div class="flex flex-col gap-2 w-full">
             <div class="font-header text-5xl">Tarun Koteeswaran</div>
-            <div class="font-semibold">
-                MPhys Physics, Oxford University
-            </div>
+            <div class="font-semibold">MPhys Physics, Oxford University</div>
 
             <div class="text-lg">
                 Reliable? No. Always got your side? No. Will you snake you out
@@ -61,8 +59,6 @@
                 power of the internet.
             </div>
         </div>
-        <div class="rounded-full bg-red-400 w-40 h-40 shrink-0" >
-
-        </div>
+        <div class="rounded-full bg-red-400 w-40 h-40 shrink-0" />
     </div>
 </div>
