@@ -5,7 +5,7 @@
 
 <SectionHeader title={"Services"} subtitle={"Design and development"} />
 <div class="h-8" />
-<div class="flex flex-row gap-4 w-full">
+<div class="flex md:flex-row flex-col gap-4 w-full">
     <InfoCard title={"Website"} link={"/website"} icon={"computer"}>
         <div slot="content" class="flex flex-col">
             <div>
