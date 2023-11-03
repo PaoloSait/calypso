@@ -4,6 +4,7 @@ export default {
   theme: {
     extend: {
       colors: {
+        'background-grey': '#F8F8F8',
         // flowbite-svelte
         primary: {
           50: '#FFF5F2',
