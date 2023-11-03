@@ -3,7 +3,7 @@
 </script>
 
 <div
-    class="h-20 flex flex-row w-full justify-between z-50 md:px-8 px-4 items-center fixed top-0 right-0 left-0 bg-background-grey text-xs md:text-base"
+    class="h-20 flex flex-row w-full justify-between z-50 md:px-8 px-4 items-center fixed top-0 right-0 left-0 text-xs md:text-base bg-gray-100"
 >
     <a class="h-3 sm:h-5 md:h-8 lg:h-10" href="/">
         <img
