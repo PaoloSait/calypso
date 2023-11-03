@@ -70,8 +70,8 @@
                 visual media!
             </div>
         </div>
-        <div
-            class="rounded-full bg-red-500 md:w-40 md:h-40 w-20 h-20 shrink-0"
-        />
+        <div class="rounded-full md:w-40 md:h-40 w-20 h-20 shrink-0">
+            <img src="/PaoloHeadshot.png" alt="" />
+        </div>
     </div>
 </div>
