@@ -24,11 +24,11 @@
 
                 <a
                     class="flex flex-row w-full items-center gap-2"
-                    href="mailto: team@unify-living.app"
+                    href="mailto:tarunkoteeswaran@gmail.com"
                 >
                     <span class="material-symbols-outlined">
                         mail
-                    </span>team@2v3.studio
+                    </span> <span class="hover:underline">tarunkoteeswaran@gmail.com</span> 
                 </a>
             </div>
             <div class="w-56" />
@@ -75,9 +75,9 @@
         </div>
         <a
             class="flex flex-row w-full items-center gap-2"
-            href="mailto: team@unify-living.app"
+            href="mailto:tarunkoteeswaran@gmail.com"
         >
-            <span class="material-symbols-outlined"> mail </span>team@2v3.studio
+            <span class="material-symbols-outlined"> mail </span><span class="hover:underline">tarunkoteeswaran@gmail.com</span> 
         </a>
     </div>
 </div>
