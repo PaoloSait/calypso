@@ -24,11 +24,11 @@
 
                 <a
                     class="flex flex-row w-full items-center gap-2"
-                    href="mailto:ptcsolutionsltd@gmail.com"
+                    href="mailto:contact@2v3.studio"
                 >
                     <span class="material-symbols-outlined">
                         mail
-                    </span> <span class="hover:underline">ptcsolutionsltd@gmail.com</span> 
+                    </span> <span class="hover:underline">contact@2V3.studio</span> 
                 </a>
             </div>
             <div class="w-56" />
@@ -75,9 +75,9 @@
         </div>
         <a
             class="flex flex-row w-full items-center gap-2"
-            href="mailto:ptcsolutionsltd@gmail.com"
+            href="mailto:contact@2v3.studio"
         >
-            <span class="material-symbols-outlined"> mail </span><span class="hover:underline">ptcsolutionsltd@gmail.com</span> 
+            <span class="material-symbols-outlined"> mail </span><span class="hover:underline">contact@2V3.studio</span> 
         </a>
     </div>
 </div>
