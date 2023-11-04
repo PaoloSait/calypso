@@ -1,6 +1,8 @@
 <script lang="ts">
+    import IntersectionObserver from "$lib/components/IntersectionObserver.svelte";
     import Timeline from "$lib/components/Timeline.svelte";
     import DevHeadline from "$lib/components/layout/DevHeadline.svelte";
+    import { fade } from "svelte/transition";
 </script>
 
 <DevHeadline
@@ -26,8 +28,26 @@
             </div>
         </div>
     </div>
-    <div class="justify-end min-w-[30%] md:flex hidden max-h-[70vh]" slot="image">
-        <img src="app_example.png" alt="app_example" class="object-contain" />
+    <!--TODO Turn this logic into an IMAGE component-->
+    <div slot="image" class="hidden md:block">
+        <IntersectionObserver once={true} let:intersecting>
+            <div class="justify-end min-w-[30%] flex max-h-[70vh]">
+                {#if intersecting}
+                    <img
+                        src="app_example.png"
+                        alt="app_example"
+                        class="object-contain"
+                        in:fade
+                    />
+                {:else}
+                    <img
+                        src="app_example.png"
+                        alt="app_example"
+                        class="invisible object-contain"
+                    />
+                {/if}
+            </div>
+        </IntersectionObserver>
     </div>
 </DevHeadline>
 

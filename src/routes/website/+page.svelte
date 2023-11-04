@@ -1,11 +1,17 @@
 <script lang="ts">
+    import IntersectionObserver from "$lib/components/IntersectionObserver.svelte";
     import Timeline from "$lib/components/Timeline.svelte";
     import DevHeadline from "$lib/components/layout/DevHeadline.svelte";
+    import { fade } from "svelte/transition";
 </script>
 
-<DevHeadline background="linear-gradient(168deg, #f1e0ff 10.21%, #f9cfe8 85.01%)">
+<DevHeadline
+    background="linear-gradient(168deg, #f1e0ff 10.21%, #f9cfe8 85.01%)"
+>
     <div class="flex flex-col" slot="text">
-        <div class="md:text-5xl text-3xl font-semibold my-10">Website Development</div>
+        <div class="md:text-5xl text-3xl font-semibold my-10">
+            Website Development
+        </div>
         <div class="w-full flex flex-col md:text-xl">
             <div>
                 A website is essential for any business to unlock its full
@@ -19,12 +25,26 @@
             </ul>
         </div>
     </div>
-    <div class="justify-center min-w-[50%] ml-10 h-min hidden md:flex" slot="image">
-        <img
-            src="website_example.png"
-            alt="website_example"
-            class="rounded-xl shadow-md object-contain"
-        />
+    <!--TODO Turn this logic into an IMAGE component-->
+    <div class="hidden md:block" slot="image">
+        <IntersectionObserver once={true} let:intersecting>
+            <div class="justify-center min-w-[50%] ml-10 h-min hidden md:flex">
+                {#if intersecting}
+                    <img
+                        src="website_example.png"
+                        alt="website_example"
+                        class="rounded-xl shadow-md object-contain"
+                        in:fade
+                    />
+                {:else}
+                    <img
+                        src="website_example.png"
+                        alt="website_example"
+                        class="rounded-xl shadow-md object-contain invisible"
+                    />
+                {/if}
+            </div>
+        </IntersectionObserver>
     </div>
 </DevHeadline>
 
@@ -50,4 +70,3 @@
     ]}
 />
 <div class="h-16" />
-
