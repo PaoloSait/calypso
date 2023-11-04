@@ -17,7 +17,7 @@
             bring them to life with the power of the internet.
         </p>
         <p>
-            You can read more about us <a class="hover:underline font-medium" href="/about">here</a>.
+            You can read more about us <a class="hover:underline font-bold" href="/about">here</a>.
         </p>
     </div>
     <div class="rounded-xl w-full overflow-hidden object-cover">

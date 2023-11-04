@@ -45,8 +45,8 @@
                 MPhys Physics, Oxford University
             </div>
             <div class="md:text-lg">
-                I am a recent physics undergraduate from the University of
-                Oxford, who is passionate about bringing clients ideas to life.
+                I am a recent physics graduate from the University of
+                Oxford, who is passionate about bringing client's ideas to life.
                 Having gained valuable experience working at tech startups, I
                 have a firm understanding of how to build resilient websites
                 that scale with user demands.
