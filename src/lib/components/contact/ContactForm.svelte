@@ -3,7 +3,8 @@
     import Input from "$lib/components/forms/Input.svelte";
 </script>
 
-<div class="background h-full py-16 px-20 hidden md:flex">
+<!-- The Page for large screens / web -->
+<div class="background h-full md:py-14 md:px-28 py-14 px-6 hidden md:flex">
     <div class="flex flex-col w-full">
         <div class="text-5xl font-semibold mb-5">Contact</div>
         <div class="flex flex-row w-full">
@@ -46,8 +47,10 @@
         </div>
     </div>
 </div>
-<div class="background h-full py-8 px-12 md:hidden flex flex-col">
-    <div class="text-4xl font-semibold mb-5">Contact</div>
+
+<!-- The is the mobile version -->
+<div class="background h-full md:py-14 md:px-28 py-14 px-6  md:hidden flex flex-col">
+    <div class="md:text-5xl text-3xl font-semibold mb-6">Contact</div>
     <div class="w-full flex flex-col items-center gap-5 text-base">
         <div>
             Please don’t hesitate to get in touch if you have any questions for

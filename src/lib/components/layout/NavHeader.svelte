@@ -7,7 +7,7 @@
 >
     <a class="h-3 sm:h-5 md:h-8 lg:h-10" href="/">
         <img
-            class="object-contain h-3 sm:h-5 md:h-8 lg:h-10"
+            class="object-contain h-4 sm:h-5 md:h-8 lg:h-10"
             src="/2V3.studio.png"
             alt=""
         />

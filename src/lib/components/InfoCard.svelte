@@ -15,7 +15,7 @@
     {#if link}
         <div>
             See more information <a
-                class="hover:underline font-medium"
+                class="hover:underline font-semibold"
                 href={link}>here</a
             >
         </div>

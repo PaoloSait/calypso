@@ -6,8 +6,8 @@
     background="linear-gradient(168deg, #CED9FF 10.21%, #E4CEFF 85.01%)"
 >
     <div class="flex flex-col" slot="text">
-        <div class="text-5xl font-semibold my-10">About Us</div>
-        <div class="w-full flex flex-col gap-4 text-xl">
+        <div class="md:text-5xl text-3xl font-semibold mb-6">About Us</div>
+        <div class="w-full flex flex-col gap-4 md:text-xl">
             <p>
                 We are <span class="font-bold">Tarun</span> and
                 <span class="font-bold">Paolo</span>, two recent graduates from
@@ -25,7 +25,7 @@
         slot="image"
     >
         <img
-            src="/PainAndTurmoil.png"
+            src="/PainAndTurmoil_Low_Res.png"
             alt="img_of_us"
             class="rounded-xl shadow-md object-contain"
         />
@@ -33,7 +33,7 @@
 </DevHeadline>
 
 <div class="md:px-36 md:py-20 py-5 px-5">
-    <div class="flex flex-row gap-8">
+    <div class="flex flex-row gap-8 items-center">
         <div class="rounded-full md:w-40 md:h-40 w-20 h-20 shrink-0">
             <img src="/TarunHeadshot_LR.png" alt="" />
         </div>
@@ -54,7 +54,7 @@
         </div>
     </div>
     <div class="md:h-20 h-5" />
-    <div class="flex flex-row-reverse md:flex-row gap-8">
+    <div class="flex flex-row-reverse md:flex-row gap-8 items-center">
         <div class="flex flex-col md:gap-2 w-full">
             <div class="md:font-header md:text-5xl text-lg font-semibold">
                 Paolo Sait
