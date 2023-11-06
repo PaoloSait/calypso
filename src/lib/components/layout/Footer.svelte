@@ -3,7 +3,7 @@
     import { scrollTo } from "svelte-scrolling";
 </script>
 
-<div class=" flex flex-col mx-8 my-4 items-start gap-6">
+<div class="flex flex-col mx-6 my-4 items-start gap-6">
     <div class="h-8">
         <img class="object-scale-down h-8" src="/2V3.studio.png" alt="" />
     </div>

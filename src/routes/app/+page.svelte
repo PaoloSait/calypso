@@ -9,7 +9,7 @@
     background="linear-gradient(168deg, #ffe0e0 10.21%, #f9e8cf 85.01%)"
 >
     <div class="flex flex-col h-full" slot="text">
-        <div class="md:text-5xl text-3xl font-semibold my-10">
+        <div class="md:text-5xl text-3xl font-semibold mb-6">
             App Development
         </div>
         <div class="w-full flex flex-col md:text-xl">
