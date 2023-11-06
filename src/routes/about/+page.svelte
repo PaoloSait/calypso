@@ -35,7 +35,7 @@
 <div class="md:px-36 md:py-20 py-5 px-5">
     <div class="flex flex-row gap-8">
         <div class="rounded-full md:w-40 md:h-40 w-20 h-20 shrink-0">
-            <img src="/TarunHeadshot.png" alt="" />
+            <img src="/TarunHeadshot_LR.png" alt="" />
         </div>
         <div class="flex flex-col md:gap-2 w-full">
             <div class="md:font-header md:text-5xl text-lg font-semibold">
@@ -71,7 +71,7 @@
             </div>
         </div>
         <div class="rounded-full md:w-40 md:h-40 w-20 h-20 shrink-0">
-            <img src="/PaoloHeadshot.png" alt="" />
+            <img src="/PaoloHeadshot_LR.png" alt="" />
         </div>
     </div>
 </div>

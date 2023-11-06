@@ -21,7 +21,7 @@
         </p>
     </div>
     <div class="rounded-xl w-full overflow-hidden object-cover">
-        <img src="/PainAndTurmoil.png" alt="" class="object-cover w-full">
+        <img src="/PainAndTurmoil_Low_Res.png" alt="" class="object-cover w-full">
     </div>
     
 </div>
