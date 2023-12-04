@@ -1,5 +1,5 @@
 <script lang="ts">
-    export let tags: string;
+    // export let tags: string;
     export let description: string;
     export let imgSrc: string;
     export let link: string | undefined = undefined;
@@ -10,11 +10,19 @@
         <a class="h-8" href={link}>
             <img class="object-scale-down md:h-10 h-8" src={imgSrc} alt="" />
         </a>
-    {:else}<img src={imgSrc} alt="" />{/if}
+    {:else}
+        <img class="object-scale-down md:h-10 h-8" src={imgSrc} alt="" />
+    {/if}
     <div class="font-medium">
-        {tags}
+        <slot />
     </div>
     <div>
         {description}
+    </div>
+    <div>
+        Read more about this project <a
+            class="hover:underline font-bold"
+            href={link}>here</a
+        >...
     </div>
 </div>
