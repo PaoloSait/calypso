@@ -15,42 +15,40 @@
     extensive collection of Chinese woodcut prints.
 </p>
 <p>
-    The client already had an existing website which was very outdated. It wasn't
-    designed for mobile, it didn't have SSL (security ceritifcate) and had even
-    been hacked on certain pages.
+    The client already had an existing website which was very outdated. It
+    wasn't designed for mobile, it didn't have SSL (security ceritifcate) and
+    had even been hacked on certain pages.
+</p>
+<h3>Development Process</h3>
+<p>
+    We discussed with the client what they wanted changed from the old website
+    and what they needed the new website to do. The client wanted the website to
+    be easily self-maintained through a no-code service, so we opted to use
+    SquareSpace to build the website. Although these don't require code
+    knowledge, we were able to add custom code to make the website exactly how
+    the client wanted - beyond the constraints of what SquareSpace usually
+    offers.
+</p>
+<p>See the updated website below:</p>
+<img
+    src="METWebsitePreview.png"
+    alt="Screenshot of the new website for the Muban Educational Trust"
+/>
+<h3>Publishing</h3>
+<p>
+    We had lots of back and forth discussion about what the client did and
+    didn't like during the development process. Once the website was exactly as
+    the client wanted, we moved to publishing the website where the previous one
+    was.
 </p>
 <p>
-    We discussed with the client 
-</p>
-<p>
-    Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at
-    dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel
-    nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis,
-    luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris
-    ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh.
-</p>
-<p>
-    Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora
-    torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed
-    lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus
-    ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti.
-    Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam.
-    Etiam ultrices.
-</p>
-<p>
-    Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod
-    lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa
-    mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis
-    in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia
-    molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue
-    congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec
-    lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum
-    tincidunt malesuada tellus. Ut ultrices ultrices enim.
-</p>
-<p>
-    Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper. Nulla
-    facilisi. Integer lacinia sollicitudin massa. Cras metus. Sed aliquet risus
-    a tortor. Integer id quam. Morbi mi. Quisque nisl felis, venenatis
-    tristique, dignissim in, ultrices sit amet, augue. Proin sodales libero eget
-    ante. Nulla quam.
+    When it comes to deploying a website for a client it all starts with the
+    domain. If the client doesn't have a domain, we will help them purchase one
+    through a domain registrar. If they do, as in this case, we will update the
+    domain's DNS records to deploy the website live. If this is the first time
+    the domain is being used, we will then make sure the website is added to
+    Google and that the SEO is as expected. In this scenario the website already
+    appeared on Google in the form of the old website. To fix this, we used the
+    Google Search Console to make sure Google new the website had been changed
+    and understand the layout of the new website.
 </p>
