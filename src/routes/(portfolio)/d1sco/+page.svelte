@@ -4,50 +4,71 @@
     Website: &nbsp<a href="/">D1SCO.vercel.app</a>
 </p>
 <p>
-    The Unify app was a project started by us (Paolo and Tarun) at 2V3.studio
-    and our friend Cam. We wanted a better way to organise our communal living
-    in our university house and realised there werern't any good solutions out
-    there.
-</p>
-<p>We decided to design and code an app to solve our problems</p>
-<p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
-    Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at
-    nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec
-    tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget
-    nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
-    per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim
-    lacinia nunc.
+    
+        Note: <em>D1SCO is in a beta-test stage so to join you will need a sign-up
+        code. If you would like a code please email us at contact@2v3.studio.
+    </em>
 </p>
 <p>
-    Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at
-    dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel
-    nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis,
-    luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris
-    ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh.
+    D1SCO is a platform for communities centred around a love for music. It's a
+    place where people can share, discuss and discover music.
 </p>
 <p>
-    Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora
-    torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed
-    lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus
-    ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti.
-    Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam.
-    Etiam ultrices.
+    It is a project that we ourselves at 2V3.studio dreamt up and decided to
+    turn into reality. A priority for this project was to create a working
+    version of the idea in a short period of time. From outlining the
+    specification to having initial users on the platform and testing it took
+    only 3 weeks.
+</p>
+<img src="D1scoPreview.png" alt="Screenshot of D1sco website">
+<h3>Design</h3>
+<p>
+    We followed our usual design process of first making it very clear what we
+    wanted the prototype to do. This is something we usually do over video calls
+    with clients. The specification of the platform was:
+    <li>Log-in and sign-up system</li>
+    <li>The ability to search for any song, album or artist</li>
+    <li>A way of sharing a song/album/artist with a text caption</li>
+    <li>Likes and threaded comments on posts</li>
 </p>
 <p>
-    Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod
-    lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa
-    mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis
-    in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia
-    molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue
-    congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec
-    lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum
-    tincidunt malesuada tellus. Ut ultrices ultrices enim.
+    Once we'd finalised our specification, we went on to wireframe the web app.
+</p>
+<blockquote>
+    A wireframe is a visual representation or skeletal outline of a digital
+    interface or design, illustrating the layout and basic elements without
+    detailed design elements or graphics.
+</blockquote>
+<p>
+    Instead of desigining the entire UI, we desigined the rough style we wanted
+    a post to follow and then let the rest of the design follow ad hoc during
+    development. Although we wouldn't usually do this, it enabled us to start
+    development sooner and make progress more quickly.
+</p>
+<h3>Develop</h3>
+<p>
+    To develop the web app, we used a tech stach that we have lots of experience
+    with. This is comprised of:
+    <li>Svelte / SvelteKit for frontend</li>
+    <li>Vercel for hosting</li>
+    <li>Firebase for backend</li>
 </p>
 <p>
-    Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper. Nulla
-    facilisi. Integer lacinia sollicitudin massa. Cras metus. Sed aliquet risus
-    a tortor. Integer id quam. Morbi mi. Quisque nisl felis, venenatis
-    tristique, dignissim in, ultrices sit amet, augue. Proin sodales libero eget
-    ante. Nulla quam.
+    Instead of building our own catalog of all songs and artists, we used the <a
+        href="https://developer.spotify.com/documentation/web-api"
+        >Spotify Api</a
+    >. This allowed us to enable search within the web app, a key part of our
+    specification.
+</p>
+<h3>Release</h3>
+<p>
+    We decided to host D1SCO through Vercel using a testing url <a href="/"
+        >www.D1SCO.vercel.app</a
+    >. This allowed us to publish the website live without having to buy a
+    domain so that we could get user feedback before committing to a name and
+    brand.
+</p>
+<p>
+    When we work with clients, we will host their website on a testing url so
+    they can see the website before it gets published live to their domain.
 </p>

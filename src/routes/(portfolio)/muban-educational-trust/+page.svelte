@@ -1,23 +1,26 @@
-<img class="w-32" src="https://images.squarespace-cdn.com/content/v1/644a805964ee682f302b079d/d32a5949-00cc-4678-8046-b72acbb2821a/MET+Logo+Steel+Stamp+%28no+backrgound%29.png?format=1500w" alt="Unify Logo" />
+<img
+    class="w-32"
+    src="https://images.squarespace-cdn.com/content/v1/644a805964ee682f302b079d/d32a5949-00cc-4678-8046-b72acbb2821a/MET+Logo+Steel+Stamp+%28no+backrgound%29.png?format=1500w"
+    alt="Unify Logo"
+/>
 <h1>Muban Educational Trust</h1>
 <p class="font-bold">
-    Website: &nbsp<a href="https://www.mubaneducationaltrust.org/">mubaneducationaltrust.org</a>
+    Website: &nbsp<a href="https://www.mubaneducationaltrust.org/"
+        >mubaneducationaltrust.org</a
+    >
 </p>
 <p>
-    The Unify app was a project started by us (Paolo and Tarun) at 2V3.studio
-    and our friend Cam. We wanted a better way to organise our communal living
-    in our university house and realised there werern't any good solutions out
-    there.
+    The client for this project was the Muban Educational Trust, a small
+    non-profit dedicated to the preservation, conservation and development of an
+    extensive collection of Chinese woodcut prints.
 </p>
-<p>We decided to design and code an app to solve our problems</p>
 <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
-    Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at
-    nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec
-    tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget
-    nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
-    per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim
-    lacinia nunc.
+    The client already had an existing website which was very outdated. It wasn't
+    designed for mobile, it didn't have SSL (security ceritifcate) and had even
+    been hacked on certain pages.
+</p>
+<p>
+    We discussed with the client 
 </p>
 <p>
     Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at

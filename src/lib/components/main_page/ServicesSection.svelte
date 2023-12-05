@@ -26,7 +26,7 @@
                 easy to use mobile application.
             </div>
             <ul class="list-disc m-4 flex flex-col gap-1 mt-4">
-                <li>In-depth Design Consultations</li>
+                <li>In-depth UI/UX Consultations</li>
                 <li>Cross-platform Support</li>
                 <li>Monthly Maintenance Calls</li>
             </ul>
