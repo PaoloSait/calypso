@@ -7,7 +7,7 @@
         class="flex flex-col items-center justify-between h-full w-full pb-8 pt-52"
     >
         <div
-            class="lg:text-7xl md:text-6xl sm:text-5xl text-4xl font-bold text-center leading-tight animate-[fadeIn_2s_ease-in-out] w-3/4 sm:w-1/2"
+            class="lg:text-8xl md:text-6xl sm:text-5xl text-4xl font-black text-center leading-tight animate-[fadeIn_2s_ease-in-out] w-3/4 sm:w-3/4 bg-gradient-to-bl from-slate-900 via-violet-900 to-slate-900 bg-clip-text text-transparent z-40"
         >
             SUPERCHARGE YOUR BRAND WITH THE WEB
         </div>
@@ -34,7 +34,7 @@
             radial-gradient(at 67% 89%, rgb(207, 250, 254) 0, transparent 96%),
             radial-gradient(at 26% 35%, rgb(207, 250, 254) 0, transparent 46%);
         background-size: 150% 150%;
-        animation: gradient-animation 15s ease infinite;
+        animation: gradient-animation 15s ease 3;
     }
 
     .background::before {
