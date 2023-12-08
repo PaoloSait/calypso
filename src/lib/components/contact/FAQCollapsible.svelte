@@ -10,15 +10,15 @@
 <div class="flex flex-col">
     <button class="flex flex-row items-start" on:click={() => (open = !open)}
         ><img
-            src={open ? "/arrow_drop_down.svg" : "/arrow_right.svg"}
+            src="/arrow_right.svg"
             alt="dropdown_arrow"
-            class="w-5 mt-[2px] lg:mt-1"
+            class={`w-5 mt-[2px] lg:mt-1 ${open ? "rotate-90" : ""} transition-all`}
         />
-        <div class="md:text-xl text-start">{title}</div>
+        <div class="md:text-xl text-start ">{title}</div>
     </button>
     <div class="h-2" />
     {#if open}
-        <div class="flex flex-row text-sm" transition:slide={{}}>
+        <div class="flex flex-row text-sm sm:text-base" transition:slide={{}}>
             <div class="w-7" />
             {content}
         </div>
