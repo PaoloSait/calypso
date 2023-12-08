@@ -14,7 +14,7 @@
     allowing users to share, discuss and discover the music they love.
 </p>
 <p>
-    This project was one which we at 2v3.studio came up with ourselves.
+    This project was one which we at 2V3.studio came up with ourselves.
     Our main priority when building the app was to create a working
     version in a short period of time. It only took us 3 weeks from outlining the
     idea to having initial users on the platform!
