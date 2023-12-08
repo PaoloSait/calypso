@@ -3,6 +3,7 @@
     export let description: string;
     export let imgSrc: string;
     export let link: string | undefined = undefined;
+    export let readMore: boolean = true;
 </script>
 
 <div class="bg-white rounded-xl px-4 md:py-8 py-8 flex-col flex gap-4 w-full">
@@ -19,10 +20,12 @@
     <div>
         {description}
     </div>
-    <div>
-        Read more about this project <a
-            class="hover:underline font-bold"
-            href={link}>here</a
-        >...
-    </div>
+    {#if readMore}
+        <div>
+            Read more about this project <a
+                class="hover:underline font-bold"
+                href={link}>here</a
+            >...
+        </div>
+    {/if}
 </div>

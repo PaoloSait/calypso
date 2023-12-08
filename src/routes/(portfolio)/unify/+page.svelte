@@ -3,16 +3,19 @@
 <p class="font-bold">
     Website: &nbsp<a href="https://www.unify-living.app/">unify-living.app</a>
 </p>
-<p>
+<!-- <p>
     Android Download: <a href="/">unify-living.app</a>
-</p>
+</p> -->
 <p>
     The Unify app was a project started by us (Paolo and Tarun) at 2V3.studio
     and our friend Cam. We wanted a better way to organise our communal living
     in our university house and realised there werern't any good solutions out
     there.
 </p>
-<h2>The App</h2>
+<p><em>
+    Check in soon to hear how this project came to life...
+</em></p>
+<!-- <h2>The App</h2>
 
 <p>We decided to design and code an app to solve our problems</p>
 <h3>Design</h3>
@@ -53,4 +56,4 @@
     links. Having the domain <em>unify-living.app</em> also allowed us to send
     automated emails from the addresses such as
     <em>no-reply@unify-living.app</em> for things such as password reset processes.
-</p>
+</p> -->

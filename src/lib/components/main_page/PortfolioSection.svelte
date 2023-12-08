@@ -34,6 +34,7 @@
         description={"2V3.studio is the website you’re on right now!"}
         link={"/"}
         imgSrc={"/2V3.studio.png"}
+        readMore={false}
     ><a class="hover:underline" href="/">Website</a></ProjectCard>
     <!-- <div class="w-full font-bold flex flex-row justify-center items-center pt-2 md:pt-0">
         More coming soon!
