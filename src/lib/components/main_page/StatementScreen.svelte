@@ -7,14 +7,14 @@
         class="flex flex-col items-center justify-between h-full w-full pb-8 pt-52"
     >
         <div
-            class="lg:text-8xl md:text-6xl sm:text-5xl text-4xl font-black text-center leading-tight animate-[fadeIn_2s_ease-in-out] w-3/4 sm:w-3/4 bg-gradient-to-bl from-slate-900 via-violet-900 to-slate-900 bg-clip-text text-transparent z-40"
+            class="lg:text-8xl md:text-6xl sm:text-5xl text-4xl font-black text-center leading-tight animate-[fadeIn_2s_ease-in-out] w-4/5 sm:w-3/4 bg-gradient-to-bl from-slate-900 via-violet-900 to-slate-900 bg-clip-text text-transparent z-40"
         >
             SUPERCHARGE YOUR BRAND WITH THE WEB
         </div>
-        <div class="flex flex-row gap-2 animate-[fadeIn_3s_ease-in-out] z-30">
+        <div class="flex flex-row gap-2 animate-[fadeIn_3s_ease-in-out] z-30 items-center">
             See our portfolio for examples of our work <span
                 use:scrollTo={{ ref: "Portfolio", offset: -100 }}
-                class="material-symbols-outlined"
+                class="material-symbols-outlined rotate-90 sm:rotate-0 text-[20px]"
             >
                 arrow_forward
             </span>
@@ -37,12 +37,14 @@
         animation: gradient-animation 15s ease 3;
     }
 
-    .background::before {
-        content: "";
-        position: absolute;
-        inset: 0;
-        background: repeating-conic-gradient(#0000 0.000045%, #000 0.0005%);
-        mix-blend-mode: overlay;
+    @media (min-width: 640px) {
+        .background::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: repeating-conic-gradient(#0000 0.000045%, #000 0.0005%);
+            mix-blend-mode: overlay;
+        }
     }
 
     @keyframes gradient-animation {
