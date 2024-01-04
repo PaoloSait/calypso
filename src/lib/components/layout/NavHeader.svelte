@@ -25,16 +25,16 @@
         </button>
         <Dropdown containerClass="rounded-md px-2">
             <DropdownItem
-                ><a class="hover:font-medium" href="/website">Website Dev</a>
+                ><a class="hover:font-medium text-base"  href="/website">Website Dev</a>
             </DropdownItem>
             <DropdownItem
-                ><a class="hover:font-medium" href="/app">App Dev</a>
+                ><a class="hover:font-medium text-base" href="/app">App Dev</a>
             </DropdownItem>
             <DropdownItem>
-                <a class="hover:font-medium" href="/about">About</a>
+                <a class="hover:font-medium text-base" href="/about">About</a>
             </DropdownItem>
             <DropdownItem>
-                <a class="hover:font-medium" href="/contact">Contact</a>
+                <a class="hover:font-medium text-base" href="/contact">Contact</a>
             </DropdownItem>
         </Dropdown>
     </div>
