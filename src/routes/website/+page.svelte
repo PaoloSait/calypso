@@ -5,6 +5,19 @@
     import { fade } from "svelte/transition";
 </script>
 
+<svelte:head>
+    <!-- Meta data for search results -->
+	<title>2V3.studio | Website Development</title>
+	<meta name="description" content="Commission a bespoke website to elevate your business's online presence.">
+	
+	<!-- Meta data for open graph protocol (See: https://ogp.me/) -->
+	<meta property="og:title" content="2V3.studio" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://www.2v3.studio/website" />
+	<meta property="og:image" content="https://www.2v3.studio/OG_Image.png" />
+	<meta property="og:description" content="Commission a bespoke website to elevate your business's online presence." />
+</svelte:head>
+
 <DevHeadline
     background="linear-gradient(168deg, #f1e0ff 10.21%, #f9cfe8 85.01%)"
 >
