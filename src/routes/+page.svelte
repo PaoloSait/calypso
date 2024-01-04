@@ -13,7 +13,7 @@
 <svelte:head>
     <!-- Meta data for search results -->
 	<title>2V3.studio</title>
-	<meta name="description" content="At 2V3.studio we design and develop bespoke websites and apps for your business.">
+	<meta name="description" content="At 2V3.studio we design and develop software for your business. Websites, mobile apps or something bespoke, we provide the full stack solution.">
 	
 	<!-- Meta data for open graph protocol (See: https://ogp.me/) -->
 	<meta property="og:title" content="2V3.studio" />
