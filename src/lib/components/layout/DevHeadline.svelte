@@ -3,7 +3,7 @@
 </script>
 
 <div
-    class="flex md:flex-row flex-col w-full md:py-14 md:px-28 py-14 px-6 background justify-between"
+    class="flex md:flex-row flex-col w-full md:py-14 md:px-28 py-14 px-6 background justify-between items-center"
     style:background
 >
     <slot name="text" />

@@ -19,7 +19,7 @@
             <div class="h-3 md:h-5" />
         {/if}
     </div>
-    <div class="bg-pink-500 w-full hidden md:flex overflow-hidden" >
+    <div class="bg-gray-300 w-full hidden md:flex overflow-hidden" >
         <img class="object-cover" src="/NOTBACKround.png" alt="notifactions">
     </div>
 </div>
