@@ -1,6 +1,7 @@
 <script lang="ts">
     import Button from "$lib/components/forms/Button.svelte";
     import Input from "$lib/components/forms/Input.svelte";
+    import { Checkbox } from "flowbite-svelte";
 </script>
 
 <!-- The Page for large screens / web -->
@@ -27,9 +28,8 @@
                     class="flex flex-row w-full items-center gap-2"
                     href="mailto:contact@2v3.studio"
                 >
-                    <span class="material-symbols-outlined">
-                        mail
-                    </span> <span class="hover:underline">contact@2V3.studio</span> 
+                    <span class="material-symbols-outlined"> mail </span>
+                    <span class="hover:underline">contact@2V3.studio</span>
                 </a>
             </div>
             <div class="w-56" />
@@ -42,6 +42,7 @@
                     type="text"
                     multiline={true}
                 />
+                <Checkbox name="checkbox">&nbsp; I am not a robot</Checkbox>
                 <Button text="Send Message" />
             </form>
         </div>
@@ -49,7 +50,9 @@
 </div>
 
 <!-- The is the mobile version -->
-<div class="background h-full md:py-14 md:px-28 py-14 px-6  md:hidden flex flex-col">
+<div
+    class="background h-full md:py-14 md:px-28 py-14 px-6 md:hidden flex flex-col"
+>
     <div class="md:text-5xl text-3xl font-semibold mb-6">Contact</div>
     <div class="w-full flex flex-col items-center gap-5 text-base">
         <div>
@@ -65,6 +68,7 @@
                 type="text"
                 multiline={true}
             />
+            <Checkbox>&nbsp; I am not a robot</Checkbox>
             <Button text="Send Message" />
         </form>
         <div class="flex flex-row w-full items-center gap-1">
@@ -80,7 +84,9 @@
             class="flex flex-row w-full items-center gap-2"
             href="mailto:contact@2v3.studio"
         >
-            <span class="material-symbols-outlined"> mail </span><span class="hover:underline">contact@2V3.studio</span> 
+            <span class="material-symbols-outlined"> mail </span><span
+                class="hover:underline">contact@2V3.studio</span
+            >
         </a>
     </div>
 </div>
