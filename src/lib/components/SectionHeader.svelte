@@ -6,10 +6,10 @@
 </script>
 
 <div class="flex flex-col items-center" use:scrollRef={title}>
-    <div class="font-header text-5xl">
+    <h1 class="font-header text-5xl">
         {title}
-    </div>
-    <div class="text-lg">
+    </h1>
+    <h3 class="text-lg">
         {subtitle}
-    </div>
+    </h3>
 </div>

@@ -6,8 +6,8 @@
 
 <div class="bg-background-grey font-display flex flex-col min-h-screen">
     <NavHeader />
-    <div class="mt-20 grow">
+    <main class="mt-20 grow">
         <slot />
-    </div>
+    </main>
     <Footer />
 </div>
