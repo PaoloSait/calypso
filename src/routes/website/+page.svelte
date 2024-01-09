@@ -21,7 +21,19 @@
 <DevHeadline
     background="linear-gradient(168deg, #f1e0ff 10.21%, #f9cfe8 85.01%)"
 >
-    <div class="flex flex-col" slot="text">
+    <div class="flex flex-col h-full gap-6" slot="text">
+        <div class="text-base font-md">Website Development</div>
+
+        <div class="text-3xl font-bold">
+            A website is essential for any business to unlock its full
+                potential. We design and build websites tailored to our clients
+                needs
+        </div>
+
+        <div class="text-lg font-md">Read about all the possibilities below</div>
+    </div>
+
+    <!-- <div class="flex flex-col" slot="text">
         <div class="md:text-5xl text-3xl font-semibold mb-6">
             Website Development
         </div>
@@ -37,11 +49,11 @@
                 <li>Improve customer satisfaction with digital experiences</li>
             </ul>
         </div>
-    </div>
+    </div> -->
     <!--TODO Turn this logic into an IMAGE component-->
-    <div class="hidden md:block" slot="image">
+    <div class="hidden md:block min-w-[40%]" slot="image">
         <IntersectionObserver once={true} let:intersecting>
-            <div class="justify-center min-w-[50%] ml-10 h-min hidden md:flex">
+            <div class="justify-center ml-10 h-min hidden md:flex">
                 {#if intersecting}
                     <img
                         src="website_example.png"

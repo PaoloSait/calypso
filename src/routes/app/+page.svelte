@@ -7,30 +7,36 @@
 
 <svelte:head>
     <!-- Meta data for search results -->
-	<title>2V3.studio | Mobile App Development</title>
-	<meta name="description" content="Commission a bespoke mobile app to provide a standout experience for your constumers.">
-	
-	<!-- Meta data for open graph protocol (See: https://ogp.me/) -->
-	<meta property="og:title" content="2V3.studio | Mobile App Development" />
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://www.2v3.studio/app" />
-	<meta property="og:image" content="https://www.2v3.studio/OG_Image.png" />
-	<meta property="og:description" content="Commission a bespoke mobile app to provide a standout experience for your constumers." />
+    <title>2V3.studio | Mobile App Development</title>
+    <meta
+        name="description"
+        content="Commission a bespoke mobile app to provide a standout experience for your constumers."
+    />
+
+    <!-- Meta data for open graph protocol (See: https://ogp.me/) -->
+    <meta property="og:title" content="2V3.studio | Mobile App Development" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.2v3.studio/app" />
+    <meta property="og:image" content="https://www.2v3.studio/OG_Image.png" />
+    <meta
+        property="og:description"
+        content="Commission a bespoke mobile app to provide a standout experience for your constumers."
+    />
 </svelte:head>
 
 <DevHeadline
     background="linear-gradient(168deg, #ffe0e0 10.21%, #f9e8cf 85.01%)"
 >
-    <div class="flex flex-col h-full" slot="text">
-        <div class="md:text-5xl text-3xl font-semibold mb-6">
-            App Development
+    <div class="flex flex-col h-full gap-6" slot="text">
+        <div class="text-base font-md">App Development</div>
+
+        <div class="text-3xl font-bold">
+            A fast and fluid mobile app can elevate your customer’s experience
+            and provide them with new ways of interacting with your services
         </div>
-        <div class="w-full flex flex-col md:text-xl">
-            <div>
-                We build fast and fluid mobile apps to elevate your customer’s
-                experience and provide them with new ways of interacting with
-                your services
-            </div>
+
+        <div class="text-lg font-md">Read about all the possibilities below</div>
+        <!-- <div class="w-full flex flex-col md:text-xl">
             <div class="h-6" />
             <div class="font-semibold">One app for both iOS and Android</div>
             <div class="h-4" />
@@ -39,7 +45,7 @@
                 Android users, we create one which works on both platforms,
                 saving you money and confusion.
             </div>
-        </div>
+        </div> -->
     </div>
     <!--TODO Turn this logic into an IMAGE component-->
     <div slot="image" class="hidden md:block">
