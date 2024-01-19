@@ -28,5 +28,5 @@
             <a class="inline-block" href="/">Portfolio</a>
         {/if}
     </span>
-    <div class="text-xs">© 2023 2V3.studio. ALL RIGHTS RESERVED</div>
+    <div class="text-xs">© 2024 2V3.studio. ALL RIGHTS RESERVED</div>
 </footer>
