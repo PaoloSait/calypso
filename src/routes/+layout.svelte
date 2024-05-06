@@ -6,7 +6,7 @@
 
 <div class="bg-background-grey font-display flex flex-col min-h-screen">
     <NavHeader />
-    <main class="mt-20 grow">
+    <main class="grow">
         <slot />
     </main>
     <Footer />

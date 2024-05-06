@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         'background-grey': '#F8F8F8',
+        'background-black': '#030018',
         // flowbite-svelte
         primary: {
           50: '#FFF5F2',
