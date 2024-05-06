@@ -4,7 +4,7 @@
     import NavHeader from "$lib/components/layout/NavHeader.svelte";
 </script>
 
-<div class="bg-background-grey font-display flex flex-col min-h-screen">
+<div class="bg-background-black font-display flex flex-col min-h-screen">
     <NavHeader />
     <main class="grow">
         <slot />

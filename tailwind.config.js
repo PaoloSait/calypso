@@ -21,7 +21,7 @@ export default {
         }
       },
       fontFamily: {
-        display: ["Libre Franklin", "sans-serif"],
+        display: ["Plus Jakarta Sans", "sans-serif"],
         header: ["Yeseva One", "serif"]
       },
       keyframes: {

@@ -3,9 +3,9 @@
     import { scrollTo } from "svelte-scrolling";
 </script>
 
-<footer class="flex flex-col mx-6 my-4 items-start gap-6">
+<footer class="flex flex-col mx-6 my-4 items-start gap-6 text-background-grey">
     <div class="h-8">
-        <img class="object-scale-down h-8" src="/2V3.studio.png" alt="" />
+        <img class="object-scale-down h-8" src="/logo-light.png" alt="" />
     </div>
     <span class="w-full">
         <a class="inline-block" href="/">Home</a>
@@ -20,13 +20,7 @@
         <span class="text-red-500 px-2 inline-block">/</span>
         <a class="inline-block" href="/app">Mobile App Development</a>
         <span class="text-red-500 px-2 inline-block">/</span>
-        {#if $page.url.pathname == "/"}
-            <div class="inline-block" use:scrollTo={{ ref: "Portfolio", offset: -100 }}>
-                Portfolio
-            </div>
-        {:else}
-            <a class="inline-block" href="/">Portfolio</a>
-        {/if}
+        <a class="inline-block" href="/portfolio">Portfolio</a>
     </span>
     <div class="text-xs">© 2024 2V3.studio. ALL RIGHTS RESERVED</div>
 </footer>
