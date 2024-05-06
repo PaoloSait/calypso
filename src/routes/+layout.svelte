@@ -5,9 +5,11 @@
 </script>
 
 <div class="bg-background-black font-display flex flex-col min-h-screen">
-    <NavHeader />
-    <main class="grow">
-        <slot />
-    </main>
+    <div class="z-10 bg-background-black mb-56 rounded-b-[75px]">
+        <NavHeader />
+        <main class="grow">
+            <slot />
+        </main>
+    </div>
     <Footer />
 </div>

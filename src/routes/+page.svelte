@@ -7,6 +7,7 @@
     import IntersectionObserver from "$lib/components/IntersectionObserver.svelte";
     import { fade, fly } from "svelte/transition";
     import StatementScreen from "$lib/components/main_page/StatementScreen.svelte";
+    import Section from "$lib/components/Section.svelte";
     export let form;
 </script>
 
@@ -24,7 +25,10 @@
 </svelte:head>
 
 <StatementScreen />
-
+<Section>
+    <div>Hey people</div>
+</Section>
+<!-- 
 <div class="px-6 sm:px-20 md:px-28 lg:px-36 pt-20 pb-12 md:pb-20">
     <IntersectionObserver once={true} let:intersecting>
         {#if intersecting}
@@ -57,5 +61,5 @@
             </div>
         {/if}
     </IntersectionObserver>
-</div>
+</div> -->
 
