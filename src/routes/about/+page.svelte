@@ -1,5 +1,7 @@
 <script lang="ts">
+    import PageTitle from "$lib/components/PageTitle.svelte";
     import DevHeadline from "$lib/components/layout/DevHeadline.svelte";
+    import Section from "$lib/components/Section.svelte";
 </script>
 
 <svelte:head>
@@ -15,13 +17,13 @@
 	<meta property="og:description" content="Learn more about the founders of 2V3.studio." />
 </svelte:head>
 
-<DevHeadline
-    background="linear-gradient(168deg, #CED9FF 10.21%, #E4CEFF 85.01%)"
->
-    <div class="flex flex-col" slot="text">
-        <div class="md:text-5xl text-3xl font-semibold mb-6">About Us</div>
-        <div class="w-full flex flex-col gap-4 md:text-xl">
-            <p>
+<PageTitle>
+
+    <div slot="heading">About Us</div>
+</PageTitle>
+
+<div class="text-background-grey text-xl mx-20 mb-12">
+   <p>
                 We are <span class="font-bold">Tarun</span> and
                 <span class="font-bold">Paolo</span>, two recent graduates from
                 Oxford University. We are web and mobile developers with a
@@ -31,21 +33,9 @@
                 We love working with new clients to understand their ideas and
                 help bring them to life with the power of the internet.
             </p>
-        </div>
-    </div>
-    <div
-        class="flex justify-center min-w-[50%] md:ml-10 mt-6 mb-4 md:my-0 h-min"
-        slot="image"
-    >
-        <img
-            src="/PainAndTurmoil_Low_Res.png"
-            alt="img_of_us"
-            class="rounded-xl shadow-md object-contain"
-        />
-    </div>
-</DevHeadline>
+</div>
 
-<div class="md:px-36 md:py-20 py-5 px-5">
+<Section>
     <div class="flex flex-row gap-8 items-center">
         <div class="rounded-full md:w-40 md:h-40 w-20 h-20 shrink-0">
             <img src="/TarunHeadshot_LR.png" alt="" />
@@ -87,4 +77,6 @@
             <img src="/PaoloHeadshot_LR.png" alt="" />
         </div>
     </div>
-</div>
+
+</Section>
+

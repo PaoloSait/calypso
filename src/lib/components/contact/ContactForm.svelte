@@ -2,10 +2,11 @@
     import Button from "$lib/components/forms/Button.svelte";
     import Input from "$lib/components/forms/Input.svelte";
     import { Checkbox } from "flowbite-svelte";
+    import Section from "../Section.svelte";
 </script>
 
 <!-- The Page for large screens / web -->
-<div class="background h-full md:py-14 md:px-28 py-14 px-6 hidden md:flex">
+<Section>
     <div class="flex flex-col w-full">
         <div class="text-5xl font-semibold mb-5">Contact</div>
         <div class="flex flex-row w-full">
@@ -47,7 +48,7 @@
             </form>
         </div>
     </div>
-</div>
+</Section>
 
 <!-- The is the mobile version -->
 <div

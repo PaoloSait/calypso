@@ -14,8 +14,8 @@
     </a>
 
     <nav class="md:flex md:flex-row md:gap-6 gap-3 hidden items-center">
-        <a class="hover:font-medium" href="/services">Services</a>
-        <a class="hover:font-medium" href="/about">About</a>
+        <a class="hover:opacity-70" href="/services">Services</a>
+        <a class="hover:opacity-70" href="/about">About</a>
         <a
             class="hover:bg-opacity-70 bg-background-grey text-background-black px-6 py-2 rounded-full gap-2 flex flex-row items-center"
             href="/contact"

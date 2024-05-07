@@ -1,5 +1,6 @@
 <script lang="ts">
     import IntersectionObserver from "$lib/components/IntersectionObserver.svelte";
+    import PageTitle from "$lib/components/PageTitle.svelte";
     import Timeline from "$lib/components/Timeline.svelte";
     import DevHeadline from "$lib/components/layout/DevHeadline.svelte";
     import { fade } from "svelte/transition";
@@ -7,16 +8,32 @@
 
 <svelte:head>
     <!-- Meta data for search results -->
-	<title>2V3.studio | Website Development</title>
-	<meta name="description" content="Commission a bespoke website to elevate your business's online presence.">
-	
-	<!-- Meta data for open graph protocol (See: https://ogp.me/) -->
-	<meta property="og:title" content="2V3.studio | Website Development" />
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://www.2v3.studio/website" />
-	<meta property="og:image" content="https://www.2v3.studio/OG_Image.png" />
-	<meta property="og:description" content="Commission a bespoke website to elevate your business's online presence." />
+    <title>2V3.studio | Website Development</title>
+    <meta
+        name="description"
+        content="Commission a bespoke website to elevate your business's online presence."
+    />
+
+    <!-- Meta data for open graph protocol (See: https://ogp.me/) -->
+    <meta property="og:title" content="2V3.studio | Website Development" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.2v3.studio/website" />
+    <meta property="og:image" content="https://www.2v3.studio/OG_Image.png" />
+    <meta
+        property="og:description"
+        content="Commission a bespoke website to elevate your business's online presence."
+    />
 </svelte:head>
+
+<PageTitle>
+    <div slot="path">Our Services /</div>
+    <div slot="heading">Websites</div>
+</PageTitle>
+
+<div class="text-background-grey text-xl mx-20 mb-12">
+    A website is essential for any business to unlock its full potential. We
+    design and build websites tailored to our clients needs
+</div>
 
 <DevHeadline
     background="linear-gradient(168deg, #f1e0ff 10.21%, #f9cfe8 85.01%)"
@@ -26,11 +43,13 @@
 
         <div class="text-3xl font-bold">
             A website is essential for any business to unlock its full
-                potential. We design and build websites tailored to our clients
-                needs
+            potential. We design and build websites tailored to our clients
+            needs
         </div>
 
-        <div class="text-lg font-md">Read about all the possibilities below</div>
+        <div class="text-lg font-md">
+            Read about all the possibilities below
+        </div>
     </div>
 
     <!-- <div class="flex flex-col" slot="text">
