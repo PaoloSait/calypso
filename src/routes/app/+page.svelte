@@ -5,6 +5,9 @@
     import DevHeadline from "$lib/components/layout/DevHeadline.svelte";
     import { fade } from "svelte/transition";
     import Section from "$lib/components/Section.svelte";
+    import AnnotationCard from "$lib/components/AnnotationCard.svelte";
+    import ContactCall from "$lib/components/ContactCall.svelte";
+    import FaqSection from "$lib/components/contact/FAQSection.svelte";
 </script>
 
 <svelte:head>
@@ -27,7 +30,9 @@
 </svelte:head>
 
 <PageTitle>
-    <div slot="path">Our Services /</div>
+    <div slot="path">
+        <a class="hover:opacity-70" href="/services">Our Services /</a>
+    </div>
     <div slot="heading">Mobile Apps</div>
 </PageTitle>
 
@@ -37,52 +42,58 @@
 </div>
 
 <Section>
-    <div class="flex flex-col h-full gap-6">
-        <div class="text-base font-md">App Development</div>
-
-        <div class="text-3xl font-bold">
-            A fast and fluid mobile app can elevate your customer’s experience
-            and provide them with new ways of interacting with your services
+    <div class="flex flex-col items-center gap-4 mx-32">
+        <div class="flex flex-row gap-28">
+            <AnnotationCard iconName="brush">
+                <div slot="title">Design</div>
+                <div slot="text">
+                    Give us your brief and we will design it. Don’t worry, we
+                    can have as many revisions as we need to make it perfect for
+                    you.
+                </div>
+            </AnnotationCard>
+            <AnnotationCard iconName="code">
+                <div slot="title">Development</div>
+                <div slot="text">
+                    Behind the scenes we will translate the design into code.
+                    Performance is on our mind with every line we code.
+                </div>
+            </AnnotationCard>
         </div>
 
-        <div class="text-lg font-md">
-            Read about all the possibilities below
+        <!--TODO Turn this logic into an IMAGE component-->
+        <div class="hidden md:block">
+            <div class=" min-w-[30%] flex max-h-[70vh]">
+                <img
+                    src="app_example.png"
+                    alt="app_example"
+                    class="object-contain"
+                    in:fade
+                />
+            </div>
         </div>
-        <!-- <div class="w-full flex flex-col md:text-xl">
-            <div class="h-6" />
-            <div class="font-semibold">One app for both iOS and Android</div>
-            <div class="h-4" />
-            <div>
-                Instead of paying for an app for iPhone users and one for
-                Android users, we create one which works on both platforms,
-                saving you money and confusion.
-            </div>
-        </div> -->
-    </div>
-    <!--TODO Turn this logic into an IMAGE component-->
-    <div class="hidden md:block">
-        <IntersectionObserver once={true} let:intersecting>
-            <div class="justify-end min-w-[30%] flex max-h-[70vh]">
-                {#if intersecting}
-                    <img
-                        src="app_example.png"
-                        alt="app_example"
-                        class="object-contain"
-                        in:fade
-                    />
-                {:else}
-                    <img
-                        src="app_example.png"
-                        alt="app_example"
-                        class="invisible object-contain"
-                    />
-                {/if}
-            </div>
-        </IntersectionObserver>
+
+        <div class="flex flex-row gap-28">
+            <AnnotationCard iconName="globe">
+                <div slot="title">Release</div>
+                <div slot="text">
+                    Once the coding is complete, we will help you beta test the
+                    app and release it onto the Apple AppStore and Google Play
+                    store.
+                </div>
+            </AnnotationCard>
+            <AnnotationCard iconName="monitoring">
+                <div slot="title">Scaling</div>
+                <div slot="text">
+                    Successful app launch? We will continue to work with you to
+                    expand the app as your user base grows.
+                </div>
+            </AnnotationCard>
+        </div>
     </div>
 </Section>
 
-<div class="h-16" />
+<ContactCall />
 
 <div class="flex flex-col md:hidden items-center gap-2">
     <div class="flex mx-8">
@@ -91,28 +102,6 @@
     <div class="text-sm italic">Example of an app design</div>
 </div>
 
-<div class="h-16" />
-
 <Section>
-    <Timeline
-        content={[
-            {
-                title: "Design",
-                body: "You provide us with a brief of what you want from your app. We will discuss the functionality you require and create a UI and UX which achieves this. This process can take as long as it needs for you to have a design you love.",
-            },
-            {
-                title: "Develop",
-                body: "We will take the design and turn it into a fully functioning app. We code our apps using Dart and Flutter which enables us to create both an Android and iOS app from the same codebase. We will provide you with beta versions of the app which you can test with a select set of users to help guide development.",
-            },
-            {
-                title: "Release",
-                body: "Depending on your requirements, we will either publish the apps to the Apple app store and Google Play Store or provide you the files to download onto devices.",
-            },
-            {
-                title: "Maintain",
-                body: "We will maintain your app, making sure everything runs smoothly. We offer monthly maintenance calls to answer any questions you have about your website, and will continue to fix any bugs that may arise.",
-            },
-        ]}
-    /></Section
+    <FaqSection /></Section
 >
-

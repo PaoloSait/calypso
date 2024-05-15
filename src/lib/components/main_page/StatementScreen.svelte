@@ -4,7 +4,7 @@
 
 <div class="flex flex-col items-center h-[calc(100svh_-_5rem)]">
     <div
-        class="flex flex-col items-center justify-between h-full w-full pb-8 pt-52"
+        class="flex flex-col justify-between h-full w-full pb-8 pt-52 pl-20"
     >
         <div
             class="lg:text-7xl md:text-5xl sm:text-4xl text-3xl font-black text-start leading-tight animate-[fadeIn_2s_ease-in-out] w-4/5 sm:w-3/4 bg-background-grey bg-clip-text text-transparent z-40"

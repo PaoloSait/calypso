@@ -26,7 +26,10 @@
 </svelte:head>
 
 <PageTitle>
-    <div slot="path">Our Services /</div>
+    <div slot="path">
+        <a class="hover:opacity-70" href="/services">Our Services /</a>
+    </div>
+
     <div slot="heading">Websites</div>
 </PageTitle>
 
