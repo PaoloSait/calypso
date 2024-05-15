@@ -1,14 +1,6 @@
 <script lang="ts">
-    import AboutUsSection from "$lib/components/main_page/AboutUsSection.svelte";
-    import PortfolioSection from "$lib/components/main_page/PortfolioSection.svelte";
-    import ServicesSection from "$lib/components/main_page/ServicesSection.svelte";
-    import StayNotifiedCard from "$lib/components/main_page/StayNotifiedCard.svelte";
-    import { scrollTo } from "svelte-scrolling";
-    import IntersectionObserver from "$lib/components/IntersectionObserver.svelte";
-    import { fade, fly } from "svelte/transition";
     import StatementScreen from "$lib/components/main_page/StatementScreen.svelte";
     import Section from "$lib/components/Section.svelte";
-    export let form;
 </script>
 
 <svelte:head>
