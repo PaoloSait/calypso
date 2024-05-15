@@ -5,7 +5,7 @@
 </script>
 
 <div class="bg-background-black font-display flex flex-col min-h-screen">
-    <div class="z-10 bg-background-black mb-56 rounded-b-[75px]">
+    <div class="z-10 bg-background-black md:mb-56 mb-64  rounded-b-[75px] overflow-hidden">
         <NavHeader />
         <main class="grow">
             <slot />

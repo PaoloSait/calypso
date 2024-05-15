@@ -13,7 +13,7 @@
         />
     </a>
 
-    <nav class="md:flex md:flex-row md:gap-6 gap-3 hidden items-center">
+    <nav class="md:flex md:flex-row md:gap-6 gap-3 hidden items-center z-50">
         <a class="hover:opacity-70" href="/services">Services</a>
         <a class="hover:opacity-70" href="/about">About</a>
         <a
@@ -27,7 +27,7 @@
             </span></a
         >
     </nav>
-    <div class="md:hidden">
+    <div class="md:hidden z-50">
         <button>
             <span class="material-symbols-outlined"> menu </span>
         </button>
