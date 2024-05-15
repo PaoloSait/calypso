@@ -1,6 +1,6 @@
 <div class="flex flex-col items-center py-48 text-background-grey gap-4 relative overflow-hidden ">
-    <div class="text-7xl font-semibold z-50">Interested?</div>
-    <div class="text-2xl z-50">Contact us with an overview of your vision</div>
+    <div class="md:text-7xl sm:text-5xl text-4xl font-semibold z-50">Interested?</div>
+    <div class="md:text-2xl sm:text-lg text-base z-50">Contact us with an overview of your vision</div>
     <a
         class="hover:bg-opacity-70 bg-[#B3A6FF] text-background-black px-6 py-2 rounded-full gap-2 flex flex-row items-center text-lg font-semibold z-50"
         href="/contact"
