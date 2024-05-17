@@ -1,0 +1,1 @@
+<span class="text-[#6751FF] px-2 inline-block cursor-default">/</span>

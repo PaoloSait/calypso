@@ -2,7 +2,7 @@
     import FaqCollapsible from "./FAQCollapsible.svelte";
 </script>
 
-<div class="flex flex-col items-left py-16 text-background-black gap-2">
+<div class="flex flex-col items-left text-background-black gap-2">
     <div class="md:text-6xl sm:text-5xl text-4xl font-semibold">FAQs</div>
     <div class="md:text-lg text-base">The answers to what is on your mind</div>
     <div class="h-8"></div>
