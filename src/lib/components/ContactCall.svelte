@@ -1,4 +1,4 @@
-<div class="flex flex-col items-center py-48 text-background-grey gap-4 relative overflow-hidden ">
+<div class="flex flex-col items-center py-48 text-background-grey gap-4 relative overflow-hidden animate-[fadeIn_2s_ease-in-out]">
     <div class="md:text-7xl sm:text-5xl text-4xl font-semibold z-50">Interested?</div>
     <div class="md:text-2xl sm:text-lg text-base z-50">Contact us with an overview of your vision</div>
     <a

@@ -95,13 +95,6 @@
 
 <ContactCall />
 
-<div class="flex flex-col md:hidden items-center gap-2">
-    <div class="flex mx-8">
-        <img src="app_example.png" alt="app_example" class="object-contain" />
-    </div>
-    <div class="text-sm italic">Example of an app design</div>
-</div>
-
 <Section>
     <FaqSection /></Section
 >
