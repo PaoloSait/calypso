@@ -11,8 +11,7 @@
     <div
         class="lg:text-xl md:text-lg sm:text-base text-sm text-background-grey text-start font-md animate-[fadeIn_3s_ease-in-out]"
     >
-        2V3.studio is a full stack agency, design through development of
-        websites and mobile applications is our expertise
+        2V3.studio is a full stack agency, experienced in designing and coding mobile apps, websites and more!
     </div>
     <div class="animate-[fadeIn_3s_ease-in-out]">
         <div

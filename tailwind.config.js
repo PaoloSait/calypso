@@ -6,6 +6,7 @@ export default {
       colors: {
         'background-grey': '#F8F8F8',
         'background-black': '#030018',
+        'highlight-purple': '#B3A6FF',
         // flowbite-svelte
         primary: {
           50: '#FFF5F2',

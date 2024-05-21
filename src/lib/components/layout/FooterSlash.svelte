@@ -1,1 +1,1 @@
-<span class="text-[#6751FF] px-2 inline-block cursor-default">/</span>
+<span class="text-highlight-purple px-2 inline-block cursor-default">/</span>
