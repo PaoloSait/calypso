@@ -38,7 +38,7 @@
         </p>
         <p>See the updated website below:</p>
         <img
-            src="/METWebsitePreview.png"
+            src="/portfolio/METWebsitePreview.png"
             alt="Screenshot of the new website for the Muban Educational Trust"
         />
         <h3>Publishing</h3>

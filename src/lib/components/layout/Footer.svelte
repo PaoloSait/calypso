@@ -7,7 +7,7 @@
     class="flex flex-col mx-6 my-12 items-start gap-6 text-background-grey fixed bottom-0 z-0"
 >
     <div class="h-8">
-        <img class="object-scale-down h-8" src="/logo-light.png" alt="" />
+        <img class="object-scale-down h-8" src="/2v3/logo-light.png" alt="Official 2v3.studio logo" />
     </div>
     <span class="w-full">
         <FooterLink text="Home" href="/" />

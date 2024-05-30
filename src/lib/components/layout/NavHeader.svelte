@@ -22,7 +22,7 @@
     <a on:click={hideMenu} class="h-3 sm:h-5 md:h-8 lg:h-10" href="/">
         <img
             class="object-contain h-4 sm:h-5 md:h-8 lg:h-10"
-            src="/logo-light.png"
+            src="/2v3/logo-light.png"
             alt="The official logo of 2V3.studio"
         />
     </a>

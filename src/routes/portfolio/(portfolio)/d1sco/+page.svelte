@@ -5,7 +5,7 @@
 <PortfolioLayout>
     <div slot="title">D1SCO</div>
     <div slot="content">
-        <img class="w-32" src="/D1SCO.png" alt="Unify Logo" />
+        <img class="w-32" src="/portfolio/D1SCO.png" alt="D1sco Logo" />
         <p class="font-bold">
             Website: &nbsp<a href="/">D1SCO.vercel.app</a>
         </p>
@@ -25,7 +25,7 @@
             version in a short period of time. It only took us 3 weeks from
             outlining the idea to having initial users on the platform!
         </p>
-        <img src="/D1scoPreview.png" alt="Screenshot of D1sco website" />
+        <img src="/portfolio/D1scoPreview.png" alt="Screenshot of D1sco website" />
         <h3>Design</h3>
         <p>
             We followed our standard design process, first establishing the core

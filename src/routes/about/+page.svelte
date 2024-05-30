@@ -42,7 +42,7 @@
 
 <Section>
     <MemberSection>
-        <div slot="image"><img src="/Tarun.png" alt="" /></div>
+        <div slot="image"><img src="/about/Tarun.png" alt="" /></div>
         <div slot="name">Tarun Koteeswaran</div>
         <div slot="school">MPhys Physics, Oxford University</div>
         <div slot="bio">
@@ -54,7 +54,7 @@
     
     <div class="md:h-20 h-5" />
     <MemberSection>
-        <div slot="image"><img src="/Paolo.png" alt="" /></div>
+        <div slot="image"><img src="/about/Paolo.png" alt="" /></div>
         <div slot="name">Paolo Sait</div>
         <div slot="school">MMath Mathematics, Oxford University</div>
         <div slot="bio">

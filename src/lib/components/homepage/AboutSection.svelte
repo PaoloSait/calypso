@@ -25,7 +25,7 @@
                 class=" overflow-hidden object-cover w-64 h-80 bg-gray-300 rounded-lg flex-1"
             >
                 <img
-                    src="/PainAndTurmoil_Low_Res.png"
+                    src="/about/PainAndTurmoil_Low_Res.png"
                     alt=""
                     class="object-cover w-full"
                 />
@@ -34,16 +34,15 @@
 
         <div class="flex md:flex-row-reverse flex-col gap-10 max-w-4xl">
             <div class="flex flex-col gap-3 flex-1">
-                <div class="text-2xl font-medium">
-                    A tagline title
-                </div>
+                <div class="text-2xl font-medium">A tagline title</div>
                 <div class="text-lg">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
-    Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at
-    nibh elementum imperdiet. <br><br> Mauris massa. Vestibulum lacinia arcu eget
-    nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
-    per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim
-    lacinia nunc.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Integer nec odio. Praesent libero. Sed cursus ante dapibus
+                    diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. <br
+                    /><br /> Mauris massa. Vestibulum lacinia arcu eget nulla. Class
+                    aptent taciti sociosqu ad litora torquent per conubia nostra,
+                    per inceptos himenaeos. Curabitur sodales ligula in libero. Sed
+                    dignissim lacinia nunc.
                 </div>
             </div>
             <div class="w-64 h-80 bg-gray-300 rounded-lg flex-1"></div>
