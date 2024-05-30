@@ -1,54 +1,56 @@
-<img
-    class="w-32"
-    src="https://images.squarespace-cdn.com/content/v1/644a805964ee682f302b079d/d32a5949-00cc-4678-8046-b72acbb2821a/MET+Logo+Steel+Stamp+%28no+backrgound%29.png?format=1500w"
-    alt="Unify Logo"
-/>
-<h1>Travel Chums</h1>
-<p class="font-bold">
-    Website: &nbsp<a href="https://www.mubaneducationaltrust.org/"
-        >mubaneducationaltrust.org</a
-    >
-</p>
-<p>
-    The client for this project was the Muban Educational Trust, a small
-    non-profit dedicated to the preservation, conservation and development of an
-    extensive collection of Chinese woodcut prints.
-</p>
-<p>
-    The client already had an existing website which was very outdated. It
-    wasn't designed for mobile, it didn't have SSL (security certificate) and
-    had even been hacked on certain pages.
-</p>
-<h3>Development Process</h3>
-<p>
-    We discussed with the client what they wanted changed from the old website
-    and what they needed the new website to do. The client wanted the website to
-    be easily self-maintained through a no-code service, so we opted to use
-    Squarespace to build the website. Although these don't require code
-    knowledge, we were able to add custom code to make the website exactly how
-    the client wanted - beyond the constraints of what Squarespace usually
-    offers.
-</p>
-<p>See the updated website below:</p>
-<img
-    src="METWebsitePreview.png"
-    alt="Screenshot of the new website for the Muban Educational Trust"
-/>
-<h3>Publishing</h3>
-<p>
-    We had lots of back-and-forth discussions about what the client did and
-    didn't like during the development process. Once the website was exactly as
-    the client wanted, we moved to publishing the website where the previous one
-    was.
-</p>
-<p>
-    When it comes to deploying a website for a client it all starts with the
-    domain. If the client doesn't have a domain, we will help them purchase one
-    through a domain registrar. If they do, as in this case, we will update the
-    domain's DNS records to deploy the website live. If this is the first time
-    the domain is being used, we will then make sure the website is added to
-    Google and that the SEO is as expected. In this scenario, the website already
-    appeared on Google in the form of the old website. To fix this, we used the
-    Google Search Console to make sure Google knew the website had been changed
-    and understand the layout of the new website.
-</p>
+<script>
+    import PortfolioLayout from "$lib/components/portfolio/PortfolioLayout.svelte";
+</script>
+
+<PortfolioLayout>
+    <div slot="title">Travel Chums</div>
+    <div slot="content">
+        <img
+            class="w-32"
+            src="/chums/chums-logo-white-on-orange.jpeg"
+            alt="Unify Logo"
+        />
+        <h1>Travel Chums</h1>
+        <!-- <p class="font-bold">
+            Website: &nbsp<a href="https://www.mubaneducationaltrust.org/"
+                >mubaneducationaltrust.org</a
+            >
+        </p> -->
+        <p>
+            The client for this project was the Travel Chums, a startup looking
+            to create a travel social app. The premise of the app is that it can
+            be used by people travelling to meet and chat with other people
+            travelling in the same location as them.
+        </p>
+        <h2>Development Process</h2>
+        <p>
+            As the idea for the app was still in early stages, the client was
+            happy for us to give us a less detailed brief and allow us to be
+            more creative in our design. We structured the project as two
+            stages:
+        </p>
+        <li>
+            MVP - Creating a basic working prototype of the app for beta testing
+        </li>
+        <li>Creating a publishable app based on the feedback from the MVP</li>
+        <h3>Working on the MVP</h3>
+        <p>
+            The MVP (minimal viable product) was planned to take no more than 3
+            weeks. A more stripped-down brief of the app was made, including the
+            core features needed to test the app. Some of these included:
+        </p>
+        <li>Login, onboarding and profile creating</li>
+        <li>An explore page to find other users</li>
+        <li>A 'Chums' page to see your friends</li>
+        <li>Chat feature - the ability to have 1-1 conservations with your friends</li>
+        <li>Settings page</li>
+        <li>Push notifications</li>
+        <p>
+            All the features were finished and ready to be tested by the clients beta testing group.
+        </p>
+        <h3>Publishing the app</h3>
+        <p>
+            <em>This stage of the project is still on going, check in soon for updates.</em>
+        </p>
+    </div>
+</PortfolioLayout>

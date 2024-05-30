@@ -3,4 +3,4 @@
     export let href: string;
 </script>
 
-<a class="inline-block hover:opacity-70" href={href}>{text}</a>
+<a class="inline-block hover:opacity-70 md:text-base text-sm" href={href}>{text}</a>

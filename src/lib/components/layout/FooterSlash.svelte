@@ -1,1 +1,1 @@
-<span class="text-highlight-purple px-2 inline-block cursor-default">/</span>
+<span class="text-highlight-purple px-2 inline-block cursor-default md:text-base text-sm">/</span>

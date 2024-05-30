@@ -5,7 +5,7 @@
 </script>
 
 <button
-	class="shadow bg-black w-full focus:shadow-outline focus:outline-none text-white py-2 px-4 rounded"
+	class="shadow bg-background-black w-full focus:shadow-outline focus:outline-none text-background-grey py-2 px-4 rounded"
 	type="submit"
 	on:click={onClick}
 	{disabled}

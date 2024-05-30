@@ -1,5 +1,5 @@
 <div class="w-full relative">
-    <div class="h-[3px] bg-background-black absolute w-full bottom-14 z-0"></div>
+    <div class="h-[3px] bg-background-black absolute w-[100svw] bottom-[59px] z-0 lg:-mx-32 md:-mx-20 sm:-mx-16 -mx-8"></div>
     <div class="flex flex-row justify-evenly w-full my-10 z-10">
             <div
                 class="px-2 pt-2 pb-1 w-min h-min rounded bg-highlight-purple text-background-grey z-10"
