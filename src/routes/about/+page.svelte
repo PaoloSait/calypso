@@ -1,6 +1,5 @@
 <script lang="ts">
     import PageTitle from "$lib/components/PageTitle.svelte";
-    import DevHeadline from "$lib/components/layout/DevHeadline.svelte";
     import Section from "$lib/components/Section.svelte";
     import MemberSection from "$lib/components/about/MemberSection.svelte";
 </script>

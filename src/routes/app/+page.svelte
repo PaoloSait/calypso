@@ -1,8 +1,5 @@
 <script lang="ts">
-    import IntersectionObserver from "$lib/components/IntersectionObserver.svelte";
     import PageTitle from "$lib/components/PageTitle.svelte";
-    import Timeline from "$lib/components/Timeline.svelte";
-    import DevHeadline from "$lib/components/layout/DevHeadline.svelte";
     import { fade } from "svelte/transition";
     import Section from "$lib/components/Section.svelte";
     import AnnotationCard from "$lib/components/AnnotationCard.svelte";
@@ -36,9 +33,11 @@
     <div slot="heading">Mobile Apps</div>
 </PageTitle>
 
-<div class="text-background-grey text-xl mx-20 mb-12">
+<div
+    class="text-background-grey text-xl mx-20 mb-12 animate-[fadeIn_2s_ease-in-out]"
+>
     A fast and fluid mobile app can elevate your customer’s experience and
-    provide them with new ways of interacting with your services
+    provide them with new ways of interacting with your services. <br /><br />
 </div>
 
 <Section>

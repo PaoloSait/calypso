@@ -1,9 +1,5 @@
 <script lang="ts">
-    import IntersectionObserver from "$lib/components/IntersectionObserver.svelte";
     import PageTitle from "$lib/components/PageTitle.svelte";
-    import Timeline from "$lib/components/Timeline.svelte";
-    import DevHeadline from "$lib/components/layout/DevHeadline.svelte";
-    import { fade } from "svelte/transition";
     import Section from "$lib/components/Section.svelte";
     import AnnotationCard from "$lib/components/AnnotationCard.svelte";
     import ContactCall from "$lib/components/ContactCall.svelte";
