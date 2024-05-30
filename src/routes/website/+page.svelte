@@ -4,6 +4,7 @@
     import AnnotationCard from "$lib/components/AnnotationCard.svelte";
     import ContactCall from "$lib/components/ContactCall.svelte";
     import FaqSection from "$lib/components/contact/FAQSection.svelte";
+    import PageBio from "$lib/components/PageBio.svelte";
 </script>
 
 <svelte:head>
@@ -32,10 +33,10 @@
     <div slot="heading">Websites</div>
 </PageTitle>
 
-<div class="text-background-grey text-xl mx-20 mb-12">
-    A fast and fluid Website can elevate your customer’s experience and
-    provide them with new ways of interacting with your services
-</div>
+<PageBio
+    >A fast and fluid Website can elevate your customer’s experience and provide
+    them with new ways of interacting with your services.
+</PageBio>
 
 <Section>
     <div class="flex flex-col items-center gap-4 mx-32">
@@ -90,7 +91,6 @@
 </Section>
 
 <ContactCall />
-
 
 <Section>
     <FaqSection /></Section

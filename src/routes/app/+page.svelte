@@ -5,6 +5,7 @@
     import AnnotationCard from "$lib/components/AnnotationCard.svelte";
     import ContactCall from "$lib/components/ContactCall.svelte";
     import FaqSection from "$lib/components/contact/FAQSection.svelte";
+    import PageBio from "$lib/components/PageBio.svelte";
 </script>
 
 <svelte:head>
@@ -33,12 +34,10 @@
     <div slot="heading">Mobile Apps</div>
 </PageTitle>
 
-<div
-    class="text-background-grey text-xl mx-20 mb-12 animate-[fadeIn_2s_ease-in-out]"
->
+<PageBio>
     A fast and fluid mobile app can elevate your customer’s experience and
     provide them with new ways of interacting with your services. <br /><br />
-</div>
+</PageBio>
 
 <Section>
     <div class="flex flex-col items-center gap-4 mx-32">

@@ -10,7 +10,7 @@
         >
         <div class="w-20 h-3 bg-background-black md:block hidden"></div>
         <img
-            src="/arrow_right.svg"
+            src="/icons/arrow_right.svg"
             alt="dropdown_arrow"
             class={`w-7 mt-[2px] ${open ? "rotate-90" : ""} transition-all md:hidden block`}
         />

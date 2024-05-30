@@ -3,6 +3,7 @@
     import Section from "$lib/components/Section.svelte";
     import ContactCall from "$lib/components/ContactCall.svelte";
     import FaqSection from "$lib/components/contact/FAQSection.svelte";
+    import PageBio from "$lib/components/PageBio.svelte";
 </script>
 
 <svelte:head>
@@ -31,10 +32,7 @@
     <div slot="heading">Bespoke Software</div>
 </PageTitle>
 
-<div class="text-background-grey text-xl mx-20 mb-12">
-    A fast and fluid mobile app can elevate your customer’s experience and
-    provide them with new ways of interacting with your services
-</div>
+<PageBio>Lorum ipsum</PageBio>
 
 <Section></Section>
 

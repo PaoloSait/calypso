@@ -1,5 +1,6 @@
 <script lang="ts">
-    import PageTitle from "$lib/components/PageTitle.svelte";
+    import PageBio from "$lib/components/PageBio.svelte";
+import PageTitle from "$lib/components/PageTitle.svelte";
     import Section from "$lib/components/Section.svelte";
     import MemberSection from "$lib/components/about/MemberSection.svelte";
 </script>
@@ -27,7 +28,7 @@
     <div slot="heading">About Us</div>
 </PageTitle>
 
-<div class="text-background-grey text-xl mx-20 mb-12">
+<PageBio>
     <p>
         We are <span class="font-bold">Tarun</span> and
         <span class="font-bold">Paolo</span>, two recent graduates from Oxford
@@ -38,7 +39,7 @@
         We love working with new clients to understand their ideas and help
         bring them to life with the power of the internet.
     </p>
-</div>
+</PageBio>
 
 <Section>
     <MemberSection>
@@ -51,7 +52,7 @@
             build enterprise-grade software.”
         </div>
     </MemberSection>
-    
+
     <div class="md:h-20 h-5" />
     <MemberSection>
         <div slot="image"><img src="/about/Paolo.png" alt="" /></div>
