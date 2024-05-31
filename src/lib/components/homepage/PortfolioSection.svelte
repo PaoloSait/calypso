@@ -55,8 +55,8 @@
                     Muban Educational Trust
                 </div>
                 <div class="py-1 px-4 bg-pink-200 rounded-full text-sm">
-Website
-</div>
+                    Website
+                </div>
                 <div>
                     The MET is a non-profit specialising in Chinese woodcut
                     prints.
@@ -80,6 +80,6 @@ Website
         class="z-20 h-[1000px] w-[1000px] border-dashed border-white border-l-2 opacity-80 rounded-full blur-[1px] absolute -top-80 md:left-80 left-10"
     ></div>
     <div
-        class="z-10 h-80 w-80 rounded-full bg-[#B3A6FF] blur-[100px] opacity-80 absolute -top-20 left-56"
+        class="z-10 h-80 w-80 rounded-full bg-[#6751FF] blur-[100px] opacity-80 absolute -top-20 left-56"
     ></div>
 </div>
