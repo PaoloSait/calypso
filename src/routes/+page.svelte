@@ -6,26 +6,14 @@
     import Section from "$lib/components/Section.svelte";
     import H2 from "$lib/components/text/H2.svelte";
     import TimelineGraphic from "$lib/components/TimelineGraphic.svelte";
+    import Seo from "$lib/components/Seo.svelte";
 </script>
 
-<svelte:head>
-    <!-- Meta data for search results -->
-    <title>2V3.studio</title>
-    <meta
-        name="description"
-        content="At 2V3.studio we design and develop software for your business. Websites, mobile apps or something bespoke, we provide the full stack solution."
-    />
-
-    <!-- Meta data for open graph protocol (See: https://ogp.me/) -->
-    <meta property="og:title" content="2V3.studio" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.2v3.studio/" />
-    <meta property="og:image" content="https://www.2v3.studio/OG_Image.png" />
-    <meta
-        property="og:description"
-        content="At 2V3.studio we design and develop bespoke websites and apps for your business."
-    />
-</svelte:head>
+<Seo
+    title={"2V3.studio"}
+    description={"At 2V3.studio we design and develop software for your business. Websites, mobile apps or something bespoke, we provide the full stack solution."}
+    path={"/"}
+/>
 
 <StatementScreen />
 <Section>

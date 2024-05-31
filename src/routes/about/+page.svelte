@@ -1,28 +1,16 @@
 <script lang="ts">
     import PageBio from "$lib/components/PageBio.svelte";
-import PageTitle from "$lib/components/PageTitle.svelte";
+    import PageTitle from "$lib/components/PageTitle.svelte";
     import Section from "$lib/components/Section.svelte";
     import MemberSection from "$lib/components/about/MemberSection.svelte";
+    import Seo from "$lib/components/Seo.svelte";
 </script>
 
-<svelte:head>
-    <!-- Meta data for search results -->
-    <title>2V3.studio | About</title>
-    <meta
-        name="description"
-        content="Learn more about the founders of 2V3.studio."
-    />
-
-    <!-- Meta data for open graph protocol (See: https://ogp.me/) -->
-    <meta property="og:title" content="2V3.studio | About" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.2v3.studio/about" />
-    <meta property="og:image" content="https://www.2v3.studio/OG_Image.png" />
-    <meta
-        property="og:description"
-        content="Learn more about the founders of 2V3.studio."
-    />
-</svelte:head>
+<Seo
+    title={"2V3.studio | About"}
+    description={"Learn more about the founders of 2V3.studio."}
+    path={"/about"}
+/>
 
 <PageTitle>
     <div slot="heading">About Us</div>

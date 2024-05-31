@@ -1,8 +1,11 @@
 <script>
     import PageTitle from "$lib/components/PageTitle.svelte";
     import Section from "$lib/components/Section.svelte";
+    import Seo from "$lib/components/Seo.svelte";
     import ServiceCard from "$lib/components/services/ServiceCard.svelte";
 </script>
+
+<Seo title={"2V3.studio | Services"} description={"alalala"} path={"/services"} />
 
 <PageTitle>
     <div slot="heading">Our Services</div>

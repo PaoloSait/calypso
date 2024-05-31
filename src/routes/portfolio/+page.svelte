@@ -3,7 +3,11 @@
     import Section from "$lib/components/Section.svelte";
     import PortfolioCard from "$lib/components/portfolio/PortfolioCard.svelte";
     import TypeChips from "$lib/components/portfolio/TypeChips.svelte";
+    import Seo from "$lib/components/Seo.svelte";
 </script>
+
+
+<Seo title={"2V3.studio | Portfolio"} description={"alalala"} path={"/portfolio"} />
 
 <PageTitle>
     <div slot="heading">Our Portfolio</div>
