@@ -38,13 +38,13 @@
                         your to bring the project to life.
                     </div>
                 </div>
-                <div class="w-64 h-80 bg-gray-300 rounded-lg flex-1"></div>
+                <img src="/trail-phone.png" class="w-64 h-80 rounded-lg flex-1 object-cover overflow-visible" alt="app example"/>
             </div>
 
             <div class="flex md:flex-row-reverse flex-col gap-10 max-w-4xl">
                 <div class="flex flex-col gap-3 flex-1">
                     <div class="text-2xl font-medium">
-                        Your dream it, we make it
+                        You dream it, we make it
                     </div>
                     <div class="text-lg">
                         Everything we do at 2V3.studio is bespoke. This means we

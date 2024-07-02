@@ -6,6 +6,7 @@
     import FaqSection from "$lib/components/contact/FAQSection.svelte";
     import PageBio from "$lib/components/PageBio.svelte";
     import Seo from "$lib/components/Seo.svelte";
+    import WebsiteFaqSection from "$lib/components/website/WebsiteFaqSection.svelte";
 </script>
 
 <Seo
@@ -21,9 +22,12 @@
     <div slot="heading">Websites</div>
 </PageTitle>
 
-<PageBio
-    >A fast and fluid Website can elevate your customer’s experience and provide
-    them with new ways of interacting with your services.
+<PageBio>
+    Craft a powerful online presence with our expert website development
+    services. We design and build responsive, high-performance websites that
+    captivate your audience and drive conversions. From sleek landing page to
+    robust web-app, our team delivers custom solutions tailored to your brand
+    and business objectives.
 </PageBio>
 
 <Section>
@@ -81,5 +85,5 @@
 <ContactCall />
 
 <Section>
-    <FaqSection /></Section
+    <WebsiteFaqSection /></Section
 >

@@ -6,13 +6,14 @@
     import ContactCall from "$lib/components/ContactCall.svelte";
     import FaqSection from "$lib/components/contact/FAQSection.svelte";
     import PageBio from "$lib/components/PageBio.svelte";
-	import Seo from "$lib/components/Seo.svelte";
+    import Seo from "$lib/components/Seo.svelte";
+    import AppFaqSection from "$lib/components/app/AppFaqSection.svelte";
 </script>
 
 <Seo
-	title={"2V3.studio | Mobile App Development"}
-	description={"Commission a bespoke mobile app to provide a standout experience for your constumers."}
-	path={"/app"}
+    title={"2V3.studio | Mobile App Development"}
+    description={"Commission a bespoke mobile app to provide a standout experience for your constumers."}
+    path={"/app"}
 />
 
 <PageTitle>
@@ -23,8 +24,10 @@
 </PageTitle>
 
 <PageBio>
-    A fast and fluid mobile app can elevate your customer’s experience and
-    provide them with new ways of interacting with your services. <br /><br />
+    Elevate your brand with our expert mobile app design and development. We
+    create bespoke, cross-platform applications that blend style and
+    functionality. From concept to launch, we tailor solutions to your unique
+    needs, ensuring seamless performance across iOS and Android. <br /><br />
 </PageBio>
 
 <Section>
@@ -82,5 +85,5 @@
 <ContactCall />
 
 <Section>
-    <FaqSection /></Section
+    <AppFaqSection /></Section
 >
