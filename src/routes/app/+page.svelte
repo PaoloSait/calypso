@@ -1,13 +1,13 @@
 <script lang="ts">
     import PageTitle from "$lib/components/PageTitle.svelte";
-    import { fade } from "svelte/transition";
     import Section from "$lib/components/Section.svelte";
-    import AnnotationCard from "$lib/components/AnnotationCard.svelte";
     import ContactCall from "$lib/components/ContactCall.svelte";
-    import FaqSection from "$lib/components/contact/FAQSection.svelte";
     import PageBio from "$lib/components/PageBio.svelte";
     import Seo from "$lib/components/Seo.svelte";
     import AppFaqSection from "$lib/components/app/AppFaqSection.svelte";
+    import TechStack from "$lib/components/app/TechStack.svelte";
+    import FourStages from "$lib/components/app/AppFourStages.svelte";
+    import H2 from "$lib/components/text/H2.svelte";
 </script>
 
 <Seo
@@ -31,59 +31,60 @@
 </PageBio>
 
 <Section>
-    <div class="flex flex-col items-center gap-4 mx-32">
-        <div class="flex flex-row gap-28">
-            <AnnotationCard iconName="brush">
-                <div slot="title">Design</div>
-                <div slot="text">
-                    Give us your brief and we will design it. Don’t worry, we
-                    can have as many revisions as we need to make it perfect for
-                    you.
-                </div>
-            </AnnotationCard>
-            <AnnotationCard iconName="code">
-                <div slot="title">Development</div>
-                <div slot="text">
-                    Behind the scenes we will translate the design into code.
-                    Performance is on our mind with every line we code.
-                </div>
-            </AnnotationCard>
-        </div>
+    <H2>
+        Fast, intuative,<br />
+        super secure
+    </H2>
 
-        <!--TODO Turn this logic into an IMAGE component-->
-        <div class="hidden md:block">
-            <div class=" min-w-[30%] flex max-h-[70vh]">
-                <img
-                    src="app_example.png"
-                    alt="app_example"
-                    class="object-contain"
-                    in:fade
-                />
+    <div class="h-20"></div>
+    <div class="flex flex-col items-center gap-16">
+        <div class="flex md:flex-row flex-col-reverse gap-10 max-w-4xl">
+            <div class="flex flex-col gap-3 flex-1">
+                <div class="text-2xl font-medium">Completely bespoke</div>
+                <div class="text-lg">
+                    Our mobile apps are meticulously crafted to meet your unique
+                    business needs and vision. We don't rely on templates or
+                    off-the-shelf solutions; instead, every app is built from
+                    scratch with your brand identity in mind.
+                    <br /><br />
+                    We work closely with you to create a truly unique app
+                    that provides users with a purpose-built experience aligned perfectly
+                    with the your business objectives.
+                </div>
             </div>
+            <img
+                src="/chums/triple-phone-chums-trans.png"
+                class="h-80 rounded-lg flex-1 object-cover overflow-visible"
+                alt="app example"
+            />
         </div>
 
-        <div class="flex flex-row gap-28">
-            <AnnotationCard iconName="globe">
-                <div slot="title">Release</div>
-                <div slot="text">
-                    Once the coding is complete, we will help you beta test the
-                    app and release it onto the Apple AppStore and Google Play
-                    store.
+        <div class="flex md:flex-row-reverse flex-col-reverse gap-10 max-w-4xl">
+            <div class="flex flex-col gap-3 flex-1">
+                <div class="text-2xl font-medium">
+                    Utilising the latest technology
                 </div>
-            </AnnotationCard>
-            <AnnotationCard iconName="monitoring">
-                <div slot="title">Scaling</div>
-                <div slot="text">
-                    Successful app launch? We will continue to work with you to
-                    expand the app as your user base grows.
+                <div class="text-lg">
+                    Our apps are built using Flutter, a Google's UI toolkit,
+                    which allows us to create apps that are consistent across
+                    iOS and Android. This ensures all of your user's have an
+                    equal experience.<br /><br /> We pair this with a robust Firebase
+                    backend. This powerful combination allows us to develop secure,
+                    high-performance apps that meet the demands of today's dynamic
+                    digital landscape.
                 </div>
-            </AnnotationCard>
+            </div>
+            <TechStack />
         </div>
     </div>
+    <div class="h-32" />
+    <H2>The Timeline</H2>
+    <div class="h-20" />
+    <FourStages />
 </Section>
 
 <ContactCall />
 
 <Section>
-    <AppFaqSection /></Section
->
+    <AppFaqSection />
+</Section>

@@ -5,6 +5,7 @@
     import FaqSection from "$lib/components/contact/FAQSection.svelte";
     import PageBio from "$lib/components/PageBio.svelte";
     import Seo from "$lib/components/Seo.svelte";
+    import H2 from "$lib/components/text/H2.svelte";
 </script>
 
 <Seo
@@ -20,12 +21,7 @@
     <div slot="heading">Bespoke Software</div>
 </PageTitle>
 
-<PageBio>Lorum ipsum</PageBio>
-
-<Section></Section>
-
-<ContactCall />
-
 <Section>
-    <FaqSection /></Section
->
+    <H2>Interested? Please <a class="underline" href="/contact">contact us</a>.</H2>
+</Section>
+

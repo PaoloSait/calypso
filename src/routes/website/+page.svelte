@@ -1,12 +1,13 @@
 <script lang="ts">
     import PageTitle from "$lib/components/PageTitle.svelte";
     import Section from "$lib/components/Section.svelte";
-    import AnnotationCard from "$lib/components/AnnotationCard.svelte";
     import ContactCall from "$lib/components/ContactCall.svelte";
-    import FaqSection from "$lib/components/contact/FAQSection.svelte";
     import PageBio from "$lib/components/PageBio.svelte";
     import Seo from "$lib/components/Seo.svelte";
     import WebsiteFaqSection from "$lib/components/website/WebsiteFaqSection.svelte";
+    import TechStack from "$lib/components/website/TechStack.svelte";
+    import H2 from "$lib/components/text/H2.svelte";
+    import WebsiteFourStages from "$lib/components/website/WebFourStages.svelte";
 </script>
 
 <Seo
@@ -31,55 +32,60 @@
 </PageBio>
 
 <Section>
-    <div class="flex flex-col items-center gap-4 mx-32">
-        <div class="flex flex-row gap-28">
-            <AnnotationCard iconName="brush">
-                <div slot="title">Design</div>
-                <div slot="text">
-                    Give us your brief and we will design it. Don’t worry, we
-                    can have as many revisions as we need to make it perfect for
-                    you.
+    <H2>
+        Fast, intuative,<br />
+        the latest technology
+    </H2>
+
+    <div class="h-20"></div>
+    <div class="flex flex-col items-center gap-16">
+        <div class="flex md:flex-row flex-col-reverse gap-10 max-w-4xl">
+            <div class="flex flex-col gap-3 flex-1">
+                <div class="text-2xl font-medium">Completely bespoke</div>
+                <div class="text-lg">
+                    Our websites are tailor-made to fit your unique brand and
+                    business needs. Our flexible approach allows for seamless
+                    integration of custom features and functionalities, adapting
+                    to your specific requirements.
+                    <br /><br /> Whether you need a simple landing page or a complex
+                    e-commerce platform, our websites are built to evolve with your
+                    business, providing a scalable foundation for your digital presence.
                 </div>
-            </AnnotationCard>
-            <AnnotationCard iconName="code">
-                <div slot="title">Development</div>
-                <div slot="text">
-                    Behind the scenes we will translate the design into code.
-                    Performance is on our mind with every line we code.
+            </div>
+            <div class="flex flex-col gap-4 items-center">
+                <img
+                    src="/portfolio/D1scoPreview.png"
+                    class="h-80 rounded-lg flex-1 object-contain"
+                    alt="app example"
+                />
+                <div class="text-xs italic">
+                    Screenshot of D1SCO music discussion website
                 </div>
-            </AnnotationCard>
+            </div>
         </div>
 
-        <!--TODO Turn this logic into an IMAGE component-->
-        <!-- <div class="hidden md:block">
-            <div class=" min-w-[30%] flex max-h-[70vh]">
-                <img
-                    src="app_example.png"
-                    alt="app_example"
-                    class="object-contain"
-                    in:fade
-                />
+        <div class="flex md:flex-row-reverse flex-col-reverse gap-10 max-w-4xl">
+            <div class="flex flex-col gap-3 flex-1">
+                <div class="text-2xl font-medium">
+                    Utilising the latest technology
+                </div>
+                <div class="text-lg">
+                    We leverage the power of Svelte, a cutting-edge JavaScript
+                    framework, allows us to build lightning-fast, reactive user
+                    interfaces.
+                    <br /><br />
+                    Paired with Sanity, a flexible and customizable content management
+                    system. This allows us to build an intuative interface for you
+                    to change the content on your website quickly and easily.
+                </div>
             </div>
-        </div> -->
-
-        <div class="flex flex-row gap-28">
-            <AnnotationCard iconName="globe">
-                <div slot="title">Release</div>
-                <div slot="text">
-                    Once the coding is complete, we will help you beta test the
-                    app and release it onto the Apple AppStore and Google Play
-                    store.
-                </div>
-            </AnnotationCard>
-            <AnnotationCard iconName="monitoring">
-                <div slot="title">Scaling</div>
-                <div slot="text">
-                    Successful app launch? We will continue to work with you to
-                    expand the app as your user base grows.
-                </div>
-            </AnnotationCard>
+            <TechStack />
         </div>
     </div>
+    <div class="h-32" />
+    <H2>The Timeline</H2>
+    <div class="h-20" />
+    <WebsiteFourStages />
 </Section>
 
 <ContactCall />

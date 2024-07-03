@@ -20,12 +20,10 @@
     <div class="flex flex-col items-center">
         <H2>From design to publishing, <br /> we'll do it all</H2>
 
-        <TimelineGraphic />
-        <div class="h-12" />
-
+        <div class="h-20"></div>
         <!-- Info section -->
         <div class="flex flex-col items-center gap-16">
-            <div class="flex md:flex-row flex-col gap-10 max-w-4xl">
+            <div class="flex md:flex-row flex-col-reverse gap-10 max-w-4xl">
                 <div class="flex flex-col gap-3 flex-1">
                     <div class="text-2xl font-medium">
                         Your complete solution
@@ -38,10 +36,16 @@
                         your to bring the project to life.
                     </div>
                 </div>
-                <img src="/trail-phone.png" class="w-64 h-80 rounded-lg flex-1 object-cover overflow-visible" alt="app example"/>
+                <img
+                    src="/4-stages-graphic.png"
+                    class="h-80 rounded-lg flex-1 object-contain overflow-visible"
+                    alt="graphic of the 4 stages of development"
+                />
             </div>
 
-            <div class="flex md:flex-row-reverse flex-col gap-10 max-w-4xl">
+            <div
+                class="flex md:flex-row-reverse flex-col-reverse gap-10 max-w-4xl"
+            >
                 <div class="flex flex-col gap-3 flex-1">
                     <div class="text-2xl font-medium">
                         You dream it, we make it
@@ -50,16 +54,20 @@
                         Everything we do at 2V3.studio is bespoke. This means we
                         can create something perfect for your business's
                         customers, brand and needs. <br /><br /> Whether it is a
-                        mobile app, website or unique software...
+                        mobile app, website or unique software, you control the vision!
                     </div>
                 </div>
-                <div class="w-64 h-80 bg-gray-300 rounded-lg flex-1"></div>
+                <img
+                    src="/chums/triple-phone-chums-trans.png"
+                    class="h-80 rounded-lg flex-1 object-cover overflow-visible"
+                    alt="website Disco example"
+                />
             </div>
 
             <a
                 class=" hover:bg-opacity-70 bg-highlight-purple text-background-black px-6 py-2 rounded-full gap-2 flex flex-row items-center md:text-lg ms:text-sm text-xs font-semibold z-50"
                 href="/services"
-                ><div>See more details about the services we offer</div>
+                ><div>See more about the services we offer</div>
                 <span
                     class="material-symbols-outlined md:text-[24px] sm:text-[22px] text-[18px]"
                 >

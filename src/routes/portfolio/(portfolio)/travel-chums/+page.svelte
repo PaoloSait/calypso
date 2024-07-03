@@ -22,6 +22,10 @@
             be used by people travelling to meet and chat with other people
             travelling in the same location as them.
         </p>
+        <img
+            src="/chums/triple-phone-chums-trans.png"
+            alt="Screenshots of the Chums app at release"
+        />
         <h2>Development Process</h2>
         <p>
             As the idea for the app was still in early stages, the client was

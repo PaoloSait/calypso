@@ -4,7 +4,7 @@
 
 <div class="flex flex-col items-center">
     <H2>Hear from our customers</H2>
-    <div class="flex flex-row">
+    <div class="flex md:flex-row flex-col">
         <img src="/start-quote.png" class="w-20 h-20 self-start" alt="start quote">
         <div
             class="md:text-xl sm:text-lg text-base leading-8 text-center max-w-2xl mx-2 my-8"

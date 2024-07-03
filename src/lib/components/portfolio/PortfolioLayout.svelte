@@ -34,7 +34,7 @@
 		class="flex flex-col items-center"
 	>
 		<article
-			class="prose prose-sm md:prose-base w-full px-8 py-14"
+			class="prose prose-sm md:prose-base w-full px-8"
 		>
 			<slot name="content" />
 		</article>

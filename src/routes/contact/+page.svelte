@@ -16,7 +16,3 @@
 	<div slot="heading">Contact</div>
 </PageTitle>
 <ContactForm />
-<div class="h-60"></div>
-<Section>
-	<FAQSection />
-</Section>
