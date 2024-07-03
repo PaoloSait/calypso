@@ -1,61 +1,85 @@
 <script lang="ts">
-    import AboutUsSection from "$lib/components/main_page/AboutUsSection.svelte";
-    import PortfolioSection from "$lib/components/main_page/PortfolioSection.svelte";
-    import ServicesSection from "$lib/components/main_page/ServicesSection.svelte";
-    import StayNotifiedCard from "$lib/components/main_page/StayNotifiedCard.svelte";
-    import { scrollTo } from "svelte-scrolling";
-    import IntersectionObserver from "$lib/components/IntersectionObserver.svelte";
-    import { fade, fly } from "svelte/transition";
-    import StatementScreen from "$lib/components/main_page/StatementScreen.svelte";
-    export let form;
+    import AboutSection from "$lib/components/homepage/AboutSection.svelte";
+    import PortfolioSection from "$lib/components/homepage/PortfolioSection.svelte";
+    import StatementScreen from "$lib/components/homepage/StatementScreen.svelte";
+    import TestimonialSection from "$lib/components/homepage/TestimonialSection.svelte";
+    import Section from "$lib/components/Section.svelte";
+    import H2 from "$lib/components/text/H2.svelte";
+    import TimelineGraphic from "$lib/components/TimelineGraphic.svelte";
+    import Seo from "$lib/components/Seo.svelte";
 </script>
 
-<svelte:head>
-    <!-- Meta data for search results -->
-	<title>2V3.studio</title>
-	<meta name="description" content="At 2V3.studio we design and develop software for your business. Websites, mobile apps or something bespoke, we provide the full stack solution.">
-	
-	<!-- Meta data for open graph protocol (See: https://ogp.me/) -->
-	<meta property="og:title" content="2V3.studio" />
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://www.2v3.studio/" />
-	<meta property="og:image" content="https://www.2v3.studio/OG_Image.png" />
-	<meta property="og:description" content="At 2V3.studio we design and develop bespoke websites and apps for your business." />
-</svelte:head>
+<Seo
+    title={"2V3.studio"}
+    description={"At 2V3.studio we design and develop software for your business. Websites, mobile apps or something bespoke, we provide the full stack solution."}
+    path={"/"}
+/>
 
 <StatementScreen />
+<Section>
+    <div class="flex flex-col items-center">
+        <H2>From design to publishing, <br /> we'll do it all</H2>
 
-<div class="px-6 sm:px-20 md:px-28 lg:px-36 pt-20 pb-12 md:pb-20">
-    <IntersectionObserver once={true} let:intersecting>
-        {#if intersecting}
-            <div in:fly={{y: 200, duration: 1000}}>
-                <ServicesSection />
+        <div class="h-20"></div>
+        <!-- Info section -->
+        <div class="flex flex-col items-center gap-16">
+            <div class="flex md:flex-row flex-col-reverse gap-10 max-w-4xl">
+                <div class="flex flex-col gap-3 flex-1">
+                    <div class="text-2xl font-medium">
+                        Your complete solution
+                    </div>
+                    <div class="text-lg">
+                        We are a full-stack agency, meaning we do all the work
+                        from designing through developing to releasing. No need
+                        to get any other agency involved! <br /><br /> Simply meet
+                        with us to create a plan and then we will work closely with
+                        your to bring the project to life.
+                    </div>
+                </div>
+                <img
+                    src="/4-stages-graphic.png"
+                    class="h-80 rounded-lg flex-1 object-contain overflow-visible"
+                    alt="graphic of the 4 stages of development"
+                />
             </div>
-        {/if}
-    </IntersectionObserver>
-    <div class="h-20" />
-    <IntersectionObserver once={true} let:intersecting>
-        {#if intersecting}
-            <div in:fly={{y: 100, duration: 750}}>
-                <PortfolioSection />
-            </div>
-        {/if}
-    </IntersectionObserver>
-    <div class="h-20" />
-    <IntersectionObserver once={true} let:intersecting>
-        {#if intersecting}
-            <div in:fly={{y: 100, duration: 750}}>
-                <AboutUsSection />
-            </div>
-        {/if}
-    </IntersectionObserver>
-    <div class="h-12 md:h-20" />
-    <IntersectionObserver once={true} let:intersecting>
-        {#if intersecting}
-            <div in:fly={{y: 100, duration: 750}}>
-                <StayNotifiedCard {form} />
-            </div>
-        {/if}
-    </IntersectionObserver>
-</div>
 
+            <div
+                class="flex md:flex-row-reverse flex-col-reverse gap-10 max-w-4xl"
+            >
+                <div class="flex flex-col gap-3 flex-1">
+                    <div class="text-2xl font-medium">
+                        You dream it, we make it
+                    </div>
+                    <div class="text-lg">
+                        Everything we do at 2V3.studio is bespoke. This means we
+                        can create something perfect for your business's
+                        customers, brand and needs. <br /><br /> Whether it is a
+                        mobile app, website or unique software, you control the vision!
+                    </div>
+                </div>
+                <img
+                    src="/chums/triple-phone-chums-trans.png"
+                    class="h-80 rounded-lg flex-1 object-cover overflow-visible"
+                    alt="website Disco example"
+                />
+            </div>
+
+            <a
+                class=" hover:bg-opacity-70 bg-highlight-purple text-background-black px-6 py-2 rounded-full gap-2 flex flex-row items-center md:text-lg ms:text-sm text-xs font-semibold z-50"
+                href="/services"
+                ><div>See more about the services we offer</div>
+                <span
+                    class="material-symbols-outlined md:text-[24px] sm:text-[22px] text-[18px]"
+                >
+                    arrow_outward
+                </span></a
+            >
+        </div>
+
+        <div class="h-32" />
+
+        <TestimonialSection />
+    </div>
+</Section>
+<PortfolioSection />
+<AboutSection />

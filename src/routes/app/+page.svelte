@@ -1,103 +1,90 @@
 <script lang="ts">
-    import IntersectionObserver from "$lib/components/IntersectionObserver.svelte";
-    import Timeline from "$lib/components/Timeline.svelte";
-    import DevHeadline from "$lib/components/layout/DevHeadline.svelte";
-    import { fade } from "svelte/transition";
+    import PageTitle from "$lib/components/PageTitle.svelte";
+    import Section from "$lib/components/Section.svelte";
+    import ContactCall from "$lib/components/ContactCall.svelte";
+    import PageBio from "$lib/components/PageBio.svelte";
+    import Seo from "$lib/components/Seo.svelte";
+    import AppFaqSection from "$lib/components/app/AppFaqSection.svelte";
+    import TechStack from "$lib/components/app/TechStack.svelte";
+    import FourStages from "$lib/components/app/AppFourStages.svelte";
+    import H2 from "$lib/components/text/H2.svelte";
 </script>
 
-<svelte:head>
-    <!-- Meta data for search results -->
-    <title>2V3.studio | Mobile App Development</title>
-    <meta
-        name="description"
-        content="Commission a bespoke mobile app to provide a standout experience for your constumers."
-    />
+<Seo
+    title={"2V3.studio | Mobile App Development"}
+    description={"Commission a bespoke mobile app to provide a standout experience for your constumers."}
+    path={"/app"}
+/>
 
-    <!-- Meta data for open graph protocol (See: https://ogp.me/) -->
-    <meta property="og:title" content="2V3.studio | Mobile App Development" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.2v3.studio/app" />
-    <meta property="og:image" content="https://www.2v3.studio/OG_Image.png" />
-    <meta
-        property="og:description"
-        content="Commission a bespoke mobile app to provide a standout experience for your constumers."
-    />
-</svelte:head>
+<PageTitle>
+    <div slot="path">
+        <a class="hover:opacity-70" href="/services">Our Services /</a>
+    </div>
+    <div slot="heading">Mobile Apps</div>
+</PageTitle>
 
-<DevHeadline
-    background="linear-gradient(168deg, #ffe0e0 10.21%, #f9e8cf 85.01%)"
->
-    <div class="flex flex-col h-full gap-6" slot="text">
-        <div class="text-base font-md">App Development</div>
+<PageBio>
+    Elevate your brand with our expert mobile app design and development. We
+    create bespoke, cross-platform applications that blend style and
+    functionality. From concept to launch, we tailor solutions to your unique
+    needs, ensuring seamless performance across iOS and Android. <br /><br />
+</PageBio>
 
-        <div class="text-3xl font-bold">
-            A fast and fluid mobile app can elevate your customer’s experience
-            and provide them with new ways of interacting with your services
+<Section>
+    <H2>
+        Fast, intuative,<br />
+        super secure
+    </H2>
+
+    <div class="h-20"></div>
+    <div class="flex flex-col items-center gap-16">
+        <div class="flex md:flex-row flex-col-reverse gap-10 max-w-4xl">
+            <div class="flex flex-col gap-3 flex-1">
+                <div class="text-2xl font-medium">Completely bespoke</div>
+                <div class="text-lg">
+                    Our mobile apps are meticulously crafted to meet your unique
+                    business needs and vision. We don't rely on templates or
+                    off-the-shelf solutions; instead, every app is built from
+                    scratch with your brand identity in mind.
+                    <br /><br />
+                    We work closely with you to create a truly unique app
+                    that provides users with a purpose-built experience aligned perfectly
+                    with the your business objectives.
+                </div>
+            </div>
+            <img
+                src="/chums/triple-phone-chums-trans.png"
+                class="h-80 rounded-lg flex-1 object-cover overflow-visible"
+                alt="app example"
+            />
         </div>
 
-        <div class="text-lg font-md">Read about all the possibilities below</div>
-        <!-- <div class="w-full flex flex-col md:text-xl">
-            <div class="h-6" />
-            <div class="font-semibold">One app for both iOS and Android</div>
-            <div class="h-4" />
-            <div>
-                Instead of paying for an app for iPhone users and one for
-                Android users, we create one which works on both platforms,
-                saving you money and confusion.
+        <div class="flex md:flex-row-reverse flex-col-reverse gap-10 max-w-4xl">
+            <div class="flex flex-col gap-3 flex-1">
+                <div class="text-2xl font-medium">
+                    Utilising the latest technology
+                </div>
+                <div class="text-lg">
+                    Our apps are built using Flutter, a Google's UI toolkit,
+                    which allows us to create apps that are consistent across
+                    iOS and Android. This ensures all of your user's have an
+                    equal experience.<br /><br /> We pair this with a robust Firebase
+                    backend. This powerful combination allows us to develop secure,
+                    high-performance apps that meet the demands of today's dynamic
+                    digital landscape.
+                </div>
             </div>
-        </div> -->
+            <TechStack />
+        </div>
     </div>
-    <!--TODO Turn this logic into an IMAGE component-->
-    <div slot="image" class="hidden md:block">
-        <IntersectionObserver once={true} let:intersecting>
-            <div class="justify-end min-w-[30%] flex max-h-[70vh]">
-                {#if intersecting}
-                    <img
-                        src="app_example.png"
-                        alt="app_example"
-                        class="object-contain"
-                        in:fade
-                    />
-                {:else}
-                    <img
-                        src="app_example.png"
-                        alt="app_example"
-                        class="invisible object-contain"
-                    />
-                {/if}
-            </div>
-        </IntersectionObserver>
-    </div>
-</DevHeadline>
+    <div class="h-32" />
+    <H2>The Timeline</H2>
+    <div class="h-20" />
+    <FourStages />
+</Section>
 
-<div class="h-16" />
+<ContactCall />
 
-<div class="flex flex-col md:hidden items-center gap-2">
-    <div class="flex mx-8">
-        <img src="app_example.png" alt="app_example" class="object-contain" />
-    </div>
-    <div class="text-sm italic">Example of an app design</div>
-</div>
-
-<div class="h-16" />
-<Timeline
-    content={[
-        {
-            title: "Design",
-            body: "You provide us with a brief of what you want from your app. We will discuss the functionality you require and create a UI and UX which achieves this. This process can take as long as it needs for you to have a design you love.",
-        },
-        {
-            title: "Develop",
-            body: "We will take the design and turn it into a fully functioning app. We code our apps using Dart and Flutter which enables us to create both an Android and iOS app from the same codebase. We will provide you with beta versions of the app which you can test with a select set of users to help guide development.",
-        },
-        {
-            title: "Release",
-            body: "Depending on your requirements, we will either publish the apps to the Apple app store and Google Play Store or provide you the files to download onto devices.",
-        },
-        {
-            title: "Maintain",
-            body: "We will maintain your app, making sure everything runs smoothly. We offer monthly maintenance calls to answer any questions you have about your website, and will continue to fix any bugs that may arise.",
-        },
-    ]}
-/>
-<div class="h-16" />
+<Section>
+    <AppFaqSection />
+</Section>

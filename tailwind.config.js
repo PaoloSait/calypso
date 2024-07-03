@@ -5,6 +5,8 @@ export default {
     extend: {
       colors: {
         'background-grey': '#F8F8F8',
+        'background-black': '#030018',
+        'highlight-purple': '#B3A6FF',
         // flowbite-svelte
         primary: {
           50: '#FFF5F2',
@@ -20,7 +22,7 @@ export default {
         }
       },
       fontFamily: {
-        display: ["Libre Franklin", "sans-serif"],
+        display: ["Plus Jakarta Sans", "sans-serif"],
         header: ["Yeseva One", "serif"]
       },
       keyframes: {

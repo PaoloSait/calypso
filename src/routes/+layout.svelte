@@ -4,10 +4,12 @@
     import NavHeader from "$lib/components/layout/NavHeader.svelte";
 </script>
 
-<div class="bg-background-grey font-display flex flex-col min-h-screen">
-    <NavHeader />
-    <main class="mt-20 grow">
-        <slot />
-    </main>
+<div class="bg-background-black font-display flex flex-col min-h-screen">
+    <div class="z-10 bg-background-black md:mb-56 mb-64  md:rounded-b-[75px] rounded-b-[40px] overflow-hidden">
+        <NavHeader />
+        <main class="grow">
+            <slot />
+        </main>
+    </div>
     <Footer />
 </div>

@@ -1,97 +1,95 @@
 <script lang="ts">
-    import IntersectionObserver from "$lib/components/IntersectionObserver.svelte";
-    import Timeline from "$lib/components/Timeline.svelte";
-    import DevHeadline from "$lib/components/layout/DevHeadline.svelte";
-    import { fade } from "svelte/transition";
+    import PageTitle from "$lib/components/PageTitle.svelte";
+    import Section from "$lib/components/Section.svelte";
+    import ContactCall from "$lib/components/ContactCall.svelte";
+    import PageBio from "$lib/components/PageBio.svelte";
+    import Seo from "$lib/components/Seo.svelte";
+    import WebsiteFaqSection from "$lib/components/website/WebsiteFaqSection.svelte";
+    import TechStack from "$lib/components/website/TechStack.svelte";
+    import H2 from "$lib/components/text/H2.svelte";
+    import WebsiteFourStages from "$lib/components/website/WebFourStages.svelte";
 </script>
 
-<svelte:head>
-    <!-- Meta data for search results -->
-	<title>2V3.studio | Website Development</title>
-	<meta name="description" content="Commission a bespoke website to elevate your business's online presence.">
-	
-	<!-- Meta data for open graph protocol (See: https://ogp.me/) -->
-	<meta property="og:title" content="2V3.studio | Website Development" />
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://www.2v3.studio/website" />
-	<meta property="og:image" content="https://www.2v3.studio/OG_Image.png" />
-	<meta property="og:description" content="Commission a bespoke website to elevate your business's online presence." />
-</svelte:head>
-
-<DevHeadline
-    background="linear-gradient(168deg, #f1e0ff 10.21%, #f9cfe8 85.01%)"
->
-    <div class="flex flex-col h-full gap-6" slot="text">
-        <div class="text-base font-md">Website Development</div>
-
-        <div class="text-3xl font-bold">
-            A website is essential for any business to unlock its full
-                potential. We design and build websites tailored to our clients
-                needs
-        </div>
-
-        <div class="text-lg font-md">Read about all the possibilities below</div>
-    </div>
-
-    <!-- <div class="flex flex-col" slot="text">
-        <div class="md:text-5xl text-3xl font-semibold mb-6">
-            Website Development
-        </div>
-        <div class="w-full flex flex-col md:text-xl">
-            <div>
-                A website is essential for any business to unlock its full
-                potential. We design and build websites tailored to our clients
-                needs, helping them:
-            </div>
-            <ul class="list-disc m-4 flex flex-col gap-1 mt-6">
-                <li>Find customers more easily</li>
-                <li>Add new revenue streams with online stores</li>
-                <li>Improve customer satisfaction with digital experiences</li>
-            </ul>
-        </div>
-    </div> -->
-    <!--TODO Turn this logic into an IMAGE component-->
-    <div class="hidden md:block min-w-[40%]" slot="image">
-        <IntersectionObserver once={true} let:intersecting>
-            <div class="justify-center ml-10 h-min hidden md:flex">
-                {#if intersecting}
-                    <img
-                        src="website_example.png"
-                        alt="website_example"
-                        class="rounded-xl shadow-md object-contain"
-                        in:fade
-                    />
-                {:else}
-                    <img
-                        src="website_example.png"
-                        alt="website_example"
-                        class="rounded-xl shadow-md object-contain invisible"
-                    />
-                {/if}
-            </div>
-        </IntersectionObserver>
-    </div>
-</DevHeadline>
-
-<div class="h-16" />
-<Timeline
-    content={[
-        {
-            title: "Design",
-            body: "Provide us with a brief of what you want from your website. Through consultation, we will help bring your vision to life using design tools like Figma. We will continue to iterate until we have settled on a design that you love!",
-        },
-        {
-            title: "Develop",
-            body: "We will take the design and turn it into a fully functioning website. We use HTML, CSS and Javascript as well as frameworks such as Svelte and Tailwind to build websites that are user-friendly and easy to maintain.",
-        },
-        {
-            title: "Release",
-            body: "Once the code has been tested  internally, we will deploy your website to the web. We are able to host your website with a variety of different providers according to your needs and priorities. ",
-        },
-        {
-            title: "Maintain",
-            body: "We will maintain your website, making sure everything runs smoothly. We offer monthly maintenance calls to answer any questions you have about your website, and will continue to fix any bugs that may arise.",
-        },
-    ]}
+<Seo
+    title={"2V3.studio | Website Development"}
+    description={"Commission a bespoke website to provide a standout experience for your constumers."}
+    path={"/website"}
 />
-<div class="h-16" />
+
+<PageTitle>
+    <div slot="path">
+        <a class="hover:opacity-70" href="/services">Our Services /</a>
+    </div>
+    <div slot="heading">Websites</div>
+</PageTitle>
+
+<PageBio>
+    Craft a powerful online presence with our expert website development
+    services. We design and build responsive, high-performance websites that
+    captivate your audience and drive conversions. From sleek landing page to
+    robust web-app, our team delivers custom solutions tailored to your brand
+    and business objectives.
+</PageBio>
+
+<Section>
+    <H2>
+        Fast, intuative,<br />
+        the latest technology
+    </H2>
+
+    <div class="h-20"></div>
+    <div class="flex flex-col items-center gap-16">
+        <div class="flex md:flex-row flex-col-reverse gap-10 max-w-4xl">
+            <div class="flex flex-col gap-3 flex-1">
+                <div class="text-2xl font-medium">Completely bespoke</div>
+                <div class="text-lg">
+                    Our websites are tailor-made to fit your unique brand and
+                    business needs. Our flexible approach allows for seamless
+                    integration of custom features and functionalities, adapting
+                    to your specific requirements.
+                    <br /><br /> Whether you need a simple landing page or a complex
+                    e-commerce platform, our websites are built to evolve with your
+                    business, providing a scalable foundation for your digital presence.
+                </div>
+            </div>
+            <div class="flex flex-col gap-4 items-center">
+                <img
+                    src="/portfolio/D1scoPreview.png"
+                    class="h-80 rounded-lg flex-1 object-contain"
+                    alt="app example"
+                />
+                <div class="text-xs italic">
+                    Screenshot of D1SCO music discussion website
+                </div>
+            </div>
+        </div>
+
+        <div class="flex md:flex-row-reverse flex-col-reverse gap-10 max-w-4xl">
+            <div class="flex flex-col gap-3 flex-1">
+                <div class="text-2xl font-medium">
+                    Utilising the latest technology
+                </div>
+                <div class="text-lg">
+                    We leverage the power of Svelte, a cutting-edge JavaScript
+                    framework, allows us to build lightning-fast, reactive user
+                    interfaces.
+                    <br /><br />
+                    Paired with Sanity, a flexible and customizable content management
+                    system. This allows us to build an intuative interface for you
+                    to change the content on your website quickly and easily.
+                </div>
+            </div>
+            <TechStack />
+        </div>
+    </div>
+    <div class="h-32" />
+    <H2>The Timeline</H2>
+    <div class="h-20" />
+    <WebsiteFourStages />
+</Section>
+
+<ContactCall />
+
+<Section>
+    <WebsiteFaqSection /></Section
+>
