@@ -16,6 +16,30 @@
                 >mubaneducationaltrust.org</a
             >
         </p> -->
+        <div class="flex flex-row gap-4 -my-6">
+            <a href="https://apps.apple.com/us/app/chums/id6483928867"
+                ><img
+                    class="md:h-12 h-8"
+                    src="/Download_on_the_App_Store_Badge_US.svg"
+                    alt="App Store Download Badge"
+                /></a
+            >
+            <a
+                href="https://play.google.com/store/apps/details?id=com.chums.travel&hl=en"
+                ><img
+                    class="md:h-12 h-8"
+                    src="/Google Play Badge.png"
+                    alt="Google Play Badge"
+                /></a
+            >
+        </div>
+        <p>
+            <em
+                >Please note that all promotional material on the App Store, Chums website and social
+                media accounts were produced by Chums themselves and are not work of
+                2V3.studio.
+            </em>
+        </p>
         <p>
             The client for this project was the Travel Chums, a startup looking
             to create a travel social app. The premise of the app is that it can
@@ -46,15 +70,22 @@
         <li>Login, onboarding and profile creating</li>
         <li>An explore page to find other users</li>
         <li>A 'Chums' page to see your friends</li>
-        <li>Chat feature - the ability to have 1-1 conservations with your friends</li>
+        <li>
+            Chat feature - the ability to have 1-1 conservations with your
+            friends
+        </li>
         <li>Settings page</li>
         <li>Push notifications</li>
         <p>
-            All the features were finished and ready to be tested by the clients beta testing group.
+            All the features were finished and ready to be tested by the clients
+            beta testing group.
         </p>
         <h3>Publishing the app</h3>
         <p>
-            <em>This stage of the project is still on going, check in soon for updates.</em>
+            <em
+                >This stage of the project is still on going, check in soon for
+                updates.</em
+            >
         </p>
     </div>
 </PortfolioLayout>

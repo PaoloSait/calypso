@@ -7,7 +7,7 @@
     <div slot="content">
         <img class="w-32" src="/portfolio/D1SCO.png" alt="D1sco Logo" />
         <p class="font-bold">
-            Website: &nbsp<a href="/">D1SCO.vercel.app</a>
+            Website: &nbsp<a href="https://www.D1SCO.vercel.app">D1SCO.vercel.app</a>
         </p>
         <p>
             Note: <em
@@ -64,7 +64,7 @@
         <h3>Release</h3>
         <p>
             We decided to host D1SCO through Vercel using a testing url <a
-                href="/">www.D1SCO.vercel.app</a
+                href="https://www.D1SCO.vercel.app">www.D1SCO.vercel.app</a
             >. This allowed us to publish the website live and get user feedback
             before committing to a name and brand.
         </p>

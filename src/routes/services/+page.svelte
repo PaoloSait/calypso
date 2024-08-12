@@ -18,6 +18,13 @@
 <Section>
     <div class="flex flex-col gap-20">
         <ServiceCard href="/app">
+            <div slot="image">
+                <img
+                    src="/MobileGraphic.png"
+                    class="h-80 rounded-lg flex-1 object-contain overflow-visible"
+                    alt="A graphic of a grid of mobile phones"
+                />
+            </div>
             <div slot="title">Mobile Apps</div>
             <div slot="text">
                 Elevate your brand with our expert mobile app design and
@@ -33,6 +40,13 @@
             </div>
         </ServiceCard>
         <ServiceCard href="/website">
+            <div slot="image">
+                <img
+                    src="/WebGraphic.png"
+                    class="h-80 rounded-lg flex-1 object-contain overflow-visible"
+                    alt="A graphic of a grid of computers"
+                />
+            </div>
             <div slot="title">Websites</div>
             <div slot="text">
                 Craft a powerful online presence with our expert website

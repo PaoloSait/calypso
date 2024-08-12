@@ -35,7 +35,22 @@
                 same location as them.
             </div>
         </PortfolioCard>
-
+        <PortfolioCard href="/portfolio/d1sco">
+            <div slot="image">
+                <img
+                    src="/portfolio/D1scoPreview.png"
+                    class="rounded-lg object-contain"
+                    alt="disco website screnshot"
+                />
+            </div>
+            <div slot="title">D1SCO</div>
+            <div slot="text">
+                D1SCO is a platform for communities centred around music,
+                allowing users to share, discuss and discover the music they
+                love. <br /><br />
+                The project took the form of a web-based app.
+            </div>
+        </PortfolioCard>
         <PortfolioCard href="/portfolio/muban-educational-trust">
             <div slot="image">
                 <img
@@ -53,22 +68,7 @@
                 a modern design and security.
             </div>
         </PortfolioCard>
-        <PortfolioCard href="/portfolio/d1sco">
-            <div slot="image">
-                <img
-                    src="/portfolio/D1scoPreview.png"
-                    class="rounded-lg object-contain"
-                    alt="disco website screnshot"
-                />
-            </div>
-            <div slot="title">D1SCO</div>
-            <div slot="text">
-                D1SCO is a platform for communities centred around music,
-                allowing users to share, discuss and discover the music they
-                love. <br /><br />
-                The project took the form of a web-based app.
-            </div>
-        </PortfolioCard>
+
         <PortfolioCard href="/portfolio/unify">
             <div slot="image" class="p-12 bg-gray-200 rounded-lg">
                 <img

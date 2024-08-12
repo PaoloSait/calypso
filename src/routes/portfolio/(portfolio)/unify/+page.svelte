@@ -5,7 +5,7 @@
 <PortfolioLayout>
     <div slot="title">Unify</div>
     <div slot="content">
-        <img class="w-32" src="/Unify.png" alt="Unify Logo" />
+        <img class="w-32" src="/portfolio/Unify.png" alt="Unify Logo" />
         <!-- <h1>Unify App</h1> -->
         <!-- <p class="font-bold">
             Website: &nbsp<a href="https://www.unify-living.app/"
