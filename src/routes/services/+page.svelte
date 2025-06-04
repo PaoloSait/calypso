@@ -20,7 +20,7 @@
         <ServiceCard href="/app">
             <div slot="image">
                 <img
-                    src="/MobileGraphic.png"
+                    src="/mobile-phone-transparent.png"
                     class="h-80 rounded-lg flex-1 object-contain overflow-visible"
                     alt="A graphic of a grid of mobile phones"
                 />
@@ -42,7 +42,7 @@
         <ServiceCard href="/website">
             <div slot="image">
                 <img
-                    src="/WebGraphic.png"
+                    src="/ibook-transparent.png"
                     class="h-80 rounded-lg flex-1 object-contain overflow-visible"
                     alt="A graphic of a grid of computers"
                 />
