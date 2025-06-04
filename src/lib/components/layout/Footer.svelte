@@ -24,5 +24,5 @@
         <FooterSlash />
         <FooterLink text="Portfolio" href="/portfolio" />
     </span>
-    <div class="text-xs">© 2024 2V3.studio. ALL RIGHTS RESERVED</div>
+    <div class="text-xs">© 2025 2V3.studio. ALL RIGHTS RESERVED</div>
 </footer>
