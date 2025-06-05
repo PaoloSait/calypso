@@ -64,6 +64,13 @@
             </div>
         </ServiceCard>
         <ServiceCard href="/software">
+            <div slot="image">
+                <img
+                    src="/server-transparent.png"
+                    class="h-80 rounded-lg flex-1 object-contain overflow-visible"
+                    alt="A graphic of a grid of mobile phones"
+                />
+            </div>
             <div slot="title">Bespoke Software</div>
             <div slot="text">
                 Revolutionize your business operations with our bespoke software
